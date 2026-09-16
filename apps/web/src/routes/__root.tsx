@@ -40,8 +40,8 @@ type RouterContext = {
 	flags: FeatureFlags;
 };
 
-const appName = "Reactive Resume";
-const tagline = "A free and open-source resume builder";
+const appName = "GLH CV";
+const tagline = "Professional CVs. Consistent Standards";
 const title = `${appName} — ${tagline}`;
 // Keep under ~120 characters so Google's mobile SERP snippet is not truncated at 3 lines.
 const description =

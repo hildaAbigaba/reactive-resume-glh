@@ -1,5 +1,5 @@
 const productionRootUrl = "https://rxresu.me/";
-const appName = "Reactive Resume";
+const appName = "GLH CV";
 const repositoryUrl = "https://github.com/reactive-resume/reactive-resume";
 
 type JsonLd = Record<string, unknown>;
