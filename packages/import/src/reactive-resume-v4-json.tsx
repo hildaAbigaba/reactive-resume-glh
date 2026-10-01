@@ -592,7 +592,7 @@ export function parseReactiveResumeV4JSON(json: string): ResumeData {
 			metadata: {
 				template: (templateSchema.safeParse(v4Data.metadata.template).success
 					? v4Data.metadata.template
-					: "onyx") as Template,
+					: "azurill") as Template,
 				layout: {
 					sidebarWidth: 35,
 					pages: (v4Data.metadata.layout ?? []).map((page) => {

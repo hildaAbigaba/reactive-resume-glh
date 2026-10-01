@@ -3,6 +3,9 @@ import type { ReactNode } from "react";
 import type { SectionStyleRuleContext } from "./style-rules";
 import type { StyleInput, TemplatePlacement } from "./styles";
 import type {
+	EducationHeaderStyleSlots,
+	ExperienceHeaderStyleSlots,
+	LanguageHeaderStyleSlots,
 	SectionTimelineStyleSlots,
 	TemplateColorRoles,
 	TemplateFeatureStyleSlots,
@@ -139,13 +142,17 @@ export const useSectionStyleRule = (slot: StyleSlot): StyleInput => {
 
 export const useTemplateFeatureStyle = (
 	feature: keyof TemplateFeatureStyleSlots,
-	slot: keyof SectionTimelineStyleSlots,
+	slot:
+		| keyof SectionTimelineStyleSlots
+		| keyof ExperienceHeaderStyleSlots
+		| keyof EducationHeaderStyleSlots
+		| keyof LanguageHeaderStyleSlots,
 ): StyleInput => {
 	const { featureStyles } = useTemplateContext();
 	const context = useTemplateStyleContext();
 	const slots = featureStyles[feature];
 
-	return resolveStyleSlot(slots?.[slot] as TemplateStyleSlot | undefined, context);
+	return resolveStyleSlot((slots as Record<string, TemplateStyleSlot | undefined> | undefined)?.[slot], context);
 };
 
 export const useTemplateIconSlot = (slot: "icon" | "sectionHeadingIcon") => {

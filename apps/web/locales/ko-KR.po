@@ -141,8 +141,8 @@ msgid "{sectionTitle} · Item {itemNumber}"
 msgstr "{sectionTitle} · 항목 {itemNumber}"
 
 #: src/features/homepage/page.tsx
-msgid "<0>Free forever and open source.</0><1/>No ads, paywalls, or tracking."
-msgstr "<0>영원히 무료이고 오픈 소스입니다.</0><1/>광고도, 유료 결제도, 추적도 없습니다."
+msgid "<0>GLH Professional CVs.</0><1/>"
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "<0>Thank you for using Reactive Resume. I build this app mostly in my spare time, with help from open-source contributors around the world.</0><1>If it has been useful to you and you'd like to keep it free and open for everyone, please consider donating. Any amount helps.</1>"
@@ -220,10 +220,6 @@ msgstr "이력서를 쉽게 만들고, 수정하고, 공유할 수 있는 무료
 msgid "A free collection of accessible patterns for the web."
 msgstr "웹을 위한 접근성 패턴을 무료로 모은 컬렉션입니다."
 
-#: src/features/homepage/page.tsx
-msgid "A free, open-source resume builder. Put your experience on the page, without fighting the formatting."
-msgstr "무료 오픈 소스 이력서 빌더. 서식과 씨름하지 말고, 경력을 페이지에 담으세요."
-
 #: src/features/homepage/site-footer.tsx
 msgid "A free, open-source resume builder. Yours to keep, yours to export, yours to host."
 msgstr "무료 오픈 소스 이력서 빌더. 이력서는 당신의 것입니다. 보관하고, 내보내고, 직접 호스팅하세요."
@@ -272,17 +268,9 @@ msgstr "<0>Amruth Pillai</0>가 만든 열정 프로젝트"
 msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "<0>Amruth Pillai</0>가 만든 열정 프로젝트입니다."
 
-#: src/features/homepage/page.tsx
-msgid "A PDF for the application. A Word file for a few more edits. Download a sample using your choices."
-msgstr "지원용 PDF. 조금 더 편집할 수 있는 Word 파일. 선택한 설정으로 샘플을 다운로드하세요."
-
 #: src/features/homepage/feature-explorer.tsx
 msgid "A private resume does not appear at its public link."
 msgstr "비공개 이력서는 공개 링크에 표시되지 않습니다."
-
-#: src/features/homepage/page.tsx
-msgid "A project you can<0/>be part of."
-msgstr "함께 만들어 가는<0/>프로젝트."
 
 #: src/features/homepage/ats-playground.tsx
 msgid "A real sample PDF"
@@ -1394,10 +1382,6 @@ msgstr "중단한 곳부터 계속하기"
 msgid "Continue where you left off by importing a resume you built in Reactive Resume or another resume builder. Supported formats are PDF, Microsoft Word, and JSON files from Reactive Resume or JSON Resume."
 msgstr "Reactive Resume이나 다른 이력서 작성 도구에서 만든 이력서를 가져와 하던 작업을 이어가세요. 지원하는 형식은 PDF, Microsoft Word, 그리고 Reactive Resume 또는 JSON Resume의 JSON 파일입니다."
 
-#: src/features/homepage/page.tsx
-msgid "Contribute code"
-msgstr "코드 기여하기"
-
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Conversation copied."
 msgstr "대화 내용이 복사되었습니다."
@@ -1728,13 +1712,13 @@ msgstr "새 요약 항목 만들기"
 msgid "Create a new volunteer experience"
 msgstr "새 봉사 경험 만들기"
 
-#: src/features/homepage/page.tsx
-msgid "Create a resume"
-msgstr "이력서 만들기"
-
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "샘플 이력서 만들기"
+
+#: src/features/homepage/page.tsx
+msgid "Create and Manage professional CVs using our company Standards."
+msgstr ""
 
 #: src/features/cover-letters/library.tsx
 msgid "Create cover letter"
@@ -2430,10 +2414,6 @@ msgstr "만료일: {0}"
 msgid "Explore features"
 msgstr "기능 살펴보기"
 
-#: src/features/homepage/page.tsx
-msgid "Explore templates"
-msgstr "템플릿 살펴보기"
-
 #: src/libs/resume/section.tsx
 msgid "Export"
 msgstr "내보내기"
@@ -2656,10 +2636,6 @@ msgstr "치명적 오류"
 msgid "Features"
 msgstr "기능"
 
-#: src/features/homepage/page.tsx
-msgid "Fifteen templates, all free. Pick one you like. You can change the type, color, and layout in the editor."
-msgstr "15가지 템플릿, 모두 무료입니다. 마음에 드는 것을 고르세요. 서체, 색상, 레이아웃은 편집기에서 바꿀 수 있습니다."
-
 #: src/dialogs/resume/import.tsx
 msgid "File"
 msgstr "파일"
@@ -2683,10 +2659,6 @@ msgstr "태그로 필터링"
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Find the weak bullet points and rewrite them with stronger outcomes, numbers, scope, and sharper verbs."
 msgstr "약한 항목을 찾아 더 뚜렷한 성과, 수치, 규모, 힘 있는 동사로 다시 써 주세요."
-
-#: src/features/homepage/page.tsx
-msgid "Find us on GitHub"
-msgstr "GitHub에서 만나보세요"
 
 #: src/libs/locale.ts
 msgid "Finnish"
@@ -2833,10 +2805,6 @@ msgstr "PDF를 생성하는 중입니다..."
 #: src/libs/locale.ts
 msgid "German"
 msgstr "독일어"
-
-#: src/features/homepage/page.tsx
-msgid "Get a second opinion on your writing, share your resume, and keep track of where you’ve applied. It’s all in one place."
-msgstr "쓴 글에 대한 의견을 받고, 이력서를 공유하고, 어디에 지원했는지 관리하세요. 모두 한곳에서 할 수 있습니다."
 
 #: src/features/homepage/page.tsx
 #: src/features/homepage/site-footer.tsx
@@ -3646,10 +3614,6 @@ msgstr "표시되는 텍스트와 실제 대상 주소를 일치시키세요."
 #: src/features/ats-checker/messages.ts
 msgid "Make them visibly larger, bolder or capitalised."
 msgstr "눈에 띄게 크게, 굵게, 또는 대문자로 표시하세요."
-
-#: src/features/homepage/page.tsx
-msgid "Make yourself <0/>look good<1/><2>on paper.</2>"
-msgstr "서류에서 <0/>좋은 인상을<1/><2>남기세요.</2>"
 
 #: src/libs/locale.ts
 msgid "Malay"
@@ -4648,10 +4612,6 @@ msgstr "Reactive Resume - 홈페이지로 이동"
 msgid "Reactive Resume (JSON)"
 msgstr "리액티브 이력서(JSON)"
 
-#: src/features/homepage/page.tsx
-msgid "Reactive Resume is free and open source. Amruth and a community of contributors keep it running. If you’d like to support the work, donations help cover hosting and development."
-msgstr "Reactive Resume는 무료 오픈 소스입니다. Amruth와 기여자 커뮤니티가 함께 운영하고 있습니다. 이 작업을 응원하고 싶다면, 후원금은 호스팅과 개발 비용에 쓰입니다."
-
 #: src/components/ui/donation-toast.tsx
 msgid "Reactive Resume is free and open source. If it has helped you, please consider donating."
 msgstr "Reactive Resume는 무료 오픈 소스 소프트웨어입니다. 도움이 되셨다면 기부를 고려해 주세요."
@@ -4735,10 +4695,6 @@ msgstr "오류가 있지만 활성화 가능"
 #: src/features/resume/stylesheet/status.tsx
 msgid "Ready to activate with warnings"
 msgstr "경고 메시지와 함께 활성화할 준비가 되었습니다."
-
-#: src/features/homepage/page.tsx
-msgid "Ready to put your name on it?"
-msgstr "이제 여기에 이름을 올려 볼까요?"
 
 #: src/dialogs/resume/sections/cover-letter.tsx
 #: src/features/cover-letters/editor.tsx
@@ -4864,10 +4820,6 @@ msgstr "표를 일반 문단과 목록으로 바꾸세요. 셀은 읽는 순서�
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Replace the attached cover letter?"
 msgstr "첨부된 커버레터를 바꿀까요?"
-
-#: src/features/homepage/page.tsx
-msgid "Report a bug"
-msgstr "버그 신고하기"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Report a Bug"
@@ -5087,10 +5039,6 @@ msgstr "급여"
 msgid "Salary range"
 msgstr "급여 범위"
 
-#: src/features/homepage/page.tsx
-msgid "Same story.<0/>A different look."
-msgstr "같은 이야기.<0/>다른 모습."
-
 #: src/features/homepage/export-playground.tsx
 msgid "Sample download format"
 msgstr "샘플 다운로드 형식"
@@ -5268,14 +5216,6 @@ msgstr "이 이력서가 공고와 얼마나 맞는지 확인"
 #: src/features/homepage/feature-explorer.tsx
 msgid "See how to connect"
 msgstr "연결 방법 보기"
-
-#: src/features/homepage/page.tsx
-msgid "See what<0/>software reads."
-msgstr "소프트웨어가<0/>무엇을 읽는지 확인하세요."
-
-#: src/features/homepage/page.tsx
-msgid "See whether your PDF has readable text. Read a sample or try your own PDF. Everything runs in your browser, so your file stays with you."
-msgstr "PDF에 읽을 수 있는 텍스트가 있는지 확인하세요. 샘플을 읽어 보거나 직접 만든 PDF를 사용해 보세요. 모든 처리는 브라우저에서 이뤄지므로 파일은 기기 밖으로 나가지 않습니다."
 
 #. placeholder {0}: app.company
 #: src/features/applications/components/table-view.tsx
@@ -5898,10 +5838,6 @@ msgstr "요약"
 msgid "Support the app by doing what you can!"
 msgstr "가능한 방식으로 앱을 지원해 주세요!"
 
-#: src/features/homepage/page.tsx
-msgid "Support the project"
-msgstr "프로젝트 후원하기"
-
 #: src/features/ats-checker/messages.ts
 #: src/libs/resume/ats.ts
 msgid "Swap the start and end dates."
@@ -5957,10 +5893,6 @@ msgstr "이 이력서를 프로덕트 매니저 채용 공고에 맞게 다듬�
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Tailoring failed."
 msgstr "맞춤 조정에 실패했습니다."
-
-#: src/features/homepage/page.tsx
-msgid "Take it<0/>with you."
-msgstr "어디든<0/>가지고 가세요."
 
 #: src/libs/locale.ts
 msgid "Tamil"
@@ -6020,10 +5952,6 @@ msgstr "텍스트가 머리글 또는 바닥글 영역에 있습니다."
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "태국어"
-
-#: src/features/homepage/page.tsx
-msgid "Thank you for helping keep it free."
-msgstr "무료로 유지될 수 있도록 도와주셔서 감사합니다."
 
 #: src/features/ats-checker/tool.tsx
 msgid "That file could not be read as a PDF."
@@ -6119,10 +6047,6 @@ msgstr "제공업체가 읽을 수 없는 형식의 검토 결과를 반환했�
 msgid "The provider's response could not be verified. Please start again."
 msgstr "공급자의 응답을 확인할 수 없습니다. 다시 시작해 주세요."
 
-#: src/features/homepage/page.tsx
-msgid "The rest of your<0/>job search, too."
-msgstr "구직 과정의 나머지도<0/>여기에서."
-
 #: src/features/resume/preview/preview.browser.tsx
 msgid "The resume preview could not be updated. The last valid preview is still shown."
 msgstr "이력서 미리보기를 업데이트할 수 없습니다. 마지막으로 유효했던 미리보기가 여전히 표시됩니다."
@@ -6162,10 +6086,6 @@ msgstr "테마"
 #: src/dialogs/auth/enable-two-factor.tsx
 msgid "Then, enter the 6 digit code that the app provides to continue."
 msgstr "그 다음, 앱에 표시된 6자리 코드를 입력해 계속 진행하세요."
-
-#: src/features/homepage/page.tsx
-msgid "There are other ways to pitch in."
-msgstr "함께할 수 있는 다른 방법도 있습니다."
 
 #: src/features/ats-checker/messages.ts
 msgid "There is a gap between two dated roles."
@@ -6567,10 +6487,6 @@ msgstr "첫 지원 추적"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Track your resume's views and downloads"
 msgstr "이력서 조회 수와 다운로드 수 추적"
-
-#: src/features/homepage/page.tsx
-msgid "Translate the app"
-msgstr "앱 번역하기"
 
 #: src/features/homepage/site-footer.tsx
 #: src/routes/_home/-sections/footer.tsx
@@ -7104,6 +7020,10 @@ msgstr "웹 검색"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Website"
 msgstr "웹사이트"
+
+#: src/features/homepage/page.tsx
+msgid "Welcome to the <0/>GLH<1/><2>CV PORTAL.</2>"
+msgstr ""
 
 #: src/features/ats-checker/parse-preview.tsx
 msgid "What a parser reads"

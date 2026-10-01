@@ -594,7 +594,7 @@ export const sampleResumeData: ResumeData = {
 				{
 					fullWidth: false,
 					main: ["019becaf-0b87-769d-98a6-46ccf558c0e8", "awards"],
-					sidebar: ["certifications", "languages", "interests", "references"],
+					sidebar: ["certifications", "languages", "interests"],
 				},
 				{
 					fullWidth: true,

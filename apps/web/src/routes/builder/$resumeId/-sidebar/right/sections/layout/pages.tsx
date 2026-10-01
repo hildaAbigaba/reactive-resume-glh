@@ -108,11 +108,9 @@ export function LayoutPages() {
 	 */
 	const findContainer = useCallback(
 		(id: string): PageLocation | null => {
-			// Check if it's a droppable ID
 			const location = parseDroppableId(id);
 			if (location) return location;
 
-			// Search through all pages
 			for (let pageIndex = 0; pageIndex < layout.pages.length; pageIndex++) {
 				const page = layout.pages[pageIndex];
 				const mainSections = new Set(page.main);
@@ -143,7 +141,6 @@ export function LayoutPages() {
 
 			if (!activeLocation || !overLocation) return;
 
-			// Same location, reorder within column
 			if (activeLocation.pageIndex === overLocation.pageIndex && activeLocation.columnId === overLocation.columnId) {
 				const page = layout.pages[activeLocation.pageIndex];
 				const items = page[activeLocation.columnId];
@@ -163,7 +160,6 @@ export function LayoutPages() {
 				return;
 			}
 
-			// Different location, move between columns/pages
 			const fromPage = layout.pages[activeLocation.pageIndex];
 			const toPage = layout.pages[overLocation.pageIndex];
 			const fromItems = fromPage[activeLocation.columnId];
@@ -199,15 +195,14 @@ export function LayoutPages() {
 
 	const handleDeletePage = useCallback(
 		(pageIndex: number) => {
-			if (layout.pages.length <= 1) return; // Don't allow deleting the last page
+			if (layout.pages.length <= 1) return;
 
 			updateResumeData((draft) => {
 				const pageToDelete = draft.metadata.layout.pages[pageIndex];
-				// Find the first available page that isn't being deleted
+
 				const targetPageIndex = pageIndex === 0 ? 1 : 0;
 				const targetPage = draft.metadata.layout.pages[targetPageIndex];
 
-				// Move all sections from deleted page to target page
 				targetPage.main.push(...pageToDelete.main);
 				targetPage.sidebar.push(...pageToDelete.sidebar);
 
@@ -233,7 +228,6 @@ export function LayoutPages() {
 		[updateResumeData],
 	);
 
-	// Don't render until pages are initialized
 	if (layout.pages.length === 0) {
 		return null;
 	}
@@ -436,11 +430,6 @@ type MoveToSubmenuProps = {
 	columnId: ColumnId;
 };
 
-/**
- * "Move to" submenu that mirrors the left-panel item menu but works at the
- * section level: it splices the section out of its current page/column and
- * pushes it onto the chosen target (or a brand new page).
- */
 function MoveToSubmenu({ id, pageIndex, columnId }: MoveToSubmenuProps) {
 	const resume = useCurrentResume();
 	const updateResumeData = useUpdateResumeData();

@@ -141,8 +141,8 @@ msgid "{sectionTitle} · Item {itemNumber}"
 msgstr "{sectionTitle} · అంశం {itemNumber} "
 
 #: src/features/homepage/page.tsx
-msgid "<0>Free forever and open source.</0><1/>No ads, paywalls, or tracking."
-msgstr "<0>ఎప్పటికీ ఉచితం, ఓపెన్ సోర్స్.</0><1/>ప్రకటనలు, పేవాల్‌లు, ట్రాకింగ్ లేవు."
+msgid "<0>GLH Professional CVs.</0><1/>"
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "<0>Thank you for using Reactive Resume. I build this app mostly in my spare time, with help from open-source contributors around the world.</0><1>If it has been useful to you and you'd like to keep it free and open for everyone, please consider donating. Any amount helps.</1>"
@@ -220,10 +220,6 @@ msgstr "మీ రెజ్యూమ్‌ను సృష్టించడం,
 msgid "A free collection of accessible patterns for the web."
 msgstr "వెబ్ కోసం యాక్సెసిబుల్ నమూనాల ఉచిత సేకరణ."
 
-#: src/features/homepage/page.tsx
-msgid "A free, open-source resume builder. Put your experience on the page, without fighting the formatting."
-msgstr "ఉచిత, ఓపెన్ సోర్స్ రెజ్యూమ్ బిల్డర్. ఫార్మాటింగ్‌తో కుస్తీ పట్టకుండా మీ అనుభవాన్ని పేజీలో పెట్టండి."
-
 #: src/features/homepage/site-footer.tsx
 msgid "A free, open-source resume builder. Yours to keep, yours to export, yours to host."
 msgstr "ఉచిత, ఓపెన్ సోర్స్ రెజ్యూమ్ బిల్డర్. ఇది మీదే — దాచుకోండి, ఎగుమతి చేయండి, మీరే హోస్ట్ చేయండి."
@@ -272,17 +268,9 @@ msgstr "<0>అమృత్ పిల్లై</0> రూపొందించి
 msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "<0>అమృత్ పిల్లై</0> రూపొందించిన ఒక అభిరుచి ప్రాజెక్ట్."
 
-#: src/features/homepage/page.tsx
-msgid "A PDF for the application. A Word file for a few more edits. Download a sample using your choices."
-msgstr "దరఖాస్తు కోసం PDF. మరికొన్ని సవరణల కోసం Word ఫైల్. మీ ఎంపికలతో ఒక నమూనాను డౌన్‌లోడ్ చేయండి."
-
 #: src/features/homepage/feature-explorer.tsx
 msgid "A private resume does not appear at its public link."
 msgstr "ప్రైవేట్ రెజ్యూమ్ దాని పబ్లిక్ లింక్‌లో కనిపించదు."
-
-#: src/features/homepage/page.tsx
-msgid "A project you can<0/>be part of."
-msgstr "మీరు భాగం కాగల<0/>ప్రాజెక్ట్."
 
 #: src/features/homepage/ats-playground.tsx
 msgid "A real sample PDF"
@@ -1394,10 +1382,6 @@ msgstr "మీరు నిలిపిన చోట continued చేయండ�
 msgid "Continue where you left off by importing a resume you built in Reactive Resume or another resume builder. Supported formats are PDF, Microsoft Word, and JSON files from Reactive Resume or JSON Resume."
 msgstr "Reactive Resume లోనో లేదా మరో రెజ్యూమ్ బిల్డర్‌లోనో మీరు తయారుచేసిన రెజ్యూమ్‌ను దిగుమతి చేసుకుని, ఆపిన చోటి నుంచే కొనసాగండి. PDF, Microsoft Word, అలాగే Reactive Resume లేదా JSON Resume నుంచి వచ్చే JSON ఫైళ్లు మద్దతు పొందుతాయి."
 
-#: src/features/homepage/page.tsx
-msgid "Contribute code"
-msgstr "కోడ్ అందించండి"
-
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Conversation copied."
 msgstr "సంభాషణ నకలు చేయబడింది."
@@ -1728,13 +1712,13 @@ msgstr "కొత్త సారాంశ అంశం సృష్టించ
 msgid "Create a new volunteer experience"
 msgstr "క్రొత్త వాలంటీర్ అనుభవాన్ని సృష్టించండి"
 
-#: src/features/homepage/page.tsx
-msgid "Create a resume"
-msgstr "రెజ్యూమ్ సృష్టించండి"
-
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "నమూనా రిజ్యూమ్ సృష్టించండి"
+
+#: src/features/homepage/page.tsx
+msgid "Create and Manage professional CVs using our company Standards."
+msgstr ""
 
 #: src/features/cover-letters/library.tsx
 msgid "Create cover letter"
@@ -2430,10 +2414,6 @@ msgstr "{0}న గడువు ముగుస్తుంది"
 msgid "Explore features"
 msgstr "ఫీచర్లను అన్వేషించండి"
 
-#: src/features/homepage/page.tsx
-msgid "Explore templates"
-msgstr "టెంప్లేట్‌లను అన్వేషించండి"
-
 #: src/libs/resume/section.tsx
 msgid "Export"
 msgstr "ఎగుమతి"
@@ -2656,10 +2636,6 @@ msgstr "తీవ్రమైన లోపం"
 msgid "Features"
 msgstr "ఫీచర్లు"
 
-#: src/features/homepage/page.tsx
-msgid "Fifteen templates, all free. Pick one you like. You can change the type, color, and layout in the editor."
-msgstr "పదిహేను టెంప్లేట్‌లు, అన్నీ ఉచితం. మీకు నచ్చినదాన్ని ఎంచుకోండి. ఎడిటర్‌లో టైప్‌ఫేస్, రంగు, లేఅవుట్ మార్చుకోవచ్చు."
-
 #: src/dialogs/resume/import.tsx
 msgid "File"
 msgstr "ఫైల్"
@@ -2683,10 +2659,6 @@ msgstr "ట్యాగ్‌ల ఆధారంగా ఫిల్టర్ చ
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Find the weak bullet points and rewrite them with stronger outcomes, numbers, scope, and sharper verbs."
 msgstr "బలహీనమైన బుల్లెట్ పాయింట్లను గుర్తించి, బలమైన ఫలితాలు, సంఖ్యలు, పరిధి, పదునైన క్రియలతో వాటిని తిరిగి రాయండి."
-
-#: src/features/homepage/page.tsx
-msgid "Find us on GitHub"
-msgstr "GitHub లో మమ్మల్ని చూడండి"
 
 #: src/libs/locale.ts
 msgid "Finnish"
@@ -2833,10 +2805,6 @@ msgstr "మీ PDF రూపొందుతోంది..."
 #: src/libs/locale.ts
 msgid "German"
 msgstr "జర్మన్"
-
-#: src/features/homepage/page.tsx
-msgid "Get a second opinion on your writing, share your resume, and keep track of where you’ve applied. It’s all in one place."
-msgstr "మీ రాతపై మరో అభిప్రాయం పొందండి, మీ రెజ్యూమ్‌ను పంచుకోండి, ఎక్కడ దరఖాస్తు చేశారో ట్రాక్ చేసుకోండి. అంతా ఒకే చోట."
 
 #: src/features/homepage/page.tsx
 #: src/features/homepage/site-footer.tsx
@@ -3646,10 +3614,6 @@ msgstr "కనిపించే టెక్స్ట్ మరియు గమ
 #: src/features/ats-checker/messages.ts
 msgid "Make them visibly larger, bolder or capitalised."
 msgstr "వాటిని కంటికి కనిపించేలా పెద్దగా, బోల్డ్‌గా లేదా క్యాపిటలైజ్డ్‌గా చేయండి."
-
-#: src/features/homepage/page.tsx
-msgid "Make yourself <0/>look good<1/><2>on paper.</2>"
-msgstr "కాగితంపై <0/>మిమ్మల్ని<1/><2>అద్భుతంగా చూపించండి.</2>"
 
 #: src/libs/locale.ts
 msgid "Malay"
@@ -4648,10 +4612,6 @@ msgstr "Reactive Resume - హోమ్‌పేజీకి వెళ్ళం�
 msgid "Reactive Resume (JSON)"
 msgstr "ప్రతిస్పందించే రెస్యూమ్ (JSON)"
 
-#: src/features/homepage/page.tsx
-msgid "Reactive Resume is free and open source. Amruth and a community of contributors keep it running. If you’d like to support the work, donations help cover hosting and development."
-msgstr "Reactive Resume ఉచితం, ఓపెన్ సోర్స్. అమృత్ మరియు కంట్రిబ్యూటర్ల కమ్యూనిటీ దీన్ని నడుపుతున్నారు. ఈ పనికి సపోర్ట్ ఇవ్వాలనుకుంటే, విరాళాలు హోస్టింగ్, డెవలప్‌మెంట్ ఖర్చులకు ఉపయోగపడతాయి."
-
 #: src/components/ui/donation-toast.tsx
 msgid "Reactive Resume is free and open source. If it has helped you, please consider donating."
 msgstr "రియాక్టివ్ రెజ్యూమ్ ఉచితం మరియు ఓపెన్ సోర్స్. ఇది మీకు సహాయపడినట్లయితే, దయచేసి విరాళం ఇవ్వడాన్ని పరిగణించండి."
@@ -4735,10 +4695,6 @@ msgstr "లోపాలతో యాక్టివేట్ చేయడాన�
 #: src/features/resume/stylesheet/status.tsx
 msgid "Ready to activate with warnings"
 msgstr "హెచ్చరికలతో యాక్టివేట్ చేయడానికి సిద్ధంగా ఉంది"
-
-#: src/features/homepage/page.tsx
-msgid "Ready to put your name on it?"
-msgstr "దీనిపై మీ పేరు పెట్టడానికి సిద్ధమా?"
 
 #: src/dialogs/resume/sections/cover-letter.tsx
 #: src/features/cover-letters/editor.tsx
@@ -4864,10 +4820,6 @@ msgstr "టేబుల్‌లను సాదా పేరాగ్రాఫ�
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Replace the attached cover letter?"
 msgstr "జోడించిన కవర్ లేఖను భర్తీ చేయాలా?"
-
-#: src/features/homepage/page.tsx
-msgid "Report a bug"
-msgstr "బగ్‌ను నివేదించండి"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Report a Bug"
@@ -5087,10 +5039,6 @@ msgstr "జీతం"
 msgid "Salary range"
 msgstr "జీతం పరిధి"
 
-#: src/features/homepage/page.tsx
-msgid "Same story.<0/>A different look."
-msgstr "అదే కథ.<0/>వేరే రూపం."
-
 #: src/features/homepage/export-playground.tsx
 msgid "Sample download format"
 msgstr "నమూనా డౌన్‌లోడ్ ఫార్మాట్"
@@ -5268,14 +5216,6 @@ msgstr "ఈ రెజ్యూమ్ పోస్టింగ్‌కు ఎల
 #: src/features/homepage/feature-explorer.tsx
 msgid "See how to connect"
 msgstr "ఎలా కనెక్ట్ చేయాలో చూడండి"
-
-#: src/features/homepage/page.tsx
-msgid "See what<0/>software reads."
-msgstr "సాఫ్ట్‌వేర్ ఏం<0/>చదువుతుందో చూడండి."
-
-#: src/features/homepage/page.tsx
-msgid "See whether your PDF has readable text. Read a sample or try your own PDF. Everything runs in your browser, so your file stays with you."
-msgstr "మీ PDFలో చదవగలిగే టెక్స్ట్ ఉందో లేదో చూడండి. ఒక నమూనాను చదవండి లేదా మీ సొంత PDFని ప్రయత్నించండి. అంతా మీ బ్రౌజర్‌లోనే జరుగుతుంది, కాబట్టి మీ ఫైల్ మీ దగ్గరే ఉంటుంది."
 
 #. placeholder {0}: app.company
 #: src/features/applications/components/table-view.tsx
@@ -5898,10 +5838,6 @@ msgstr "సమ్మరీ"
 msgid "Support the app by doing what you can!"
 msgstr "మీకు వీలైనంత చేసి యాప్‌కు సపోర్ట్ ఇవ్వండి!"
 
-#: src/features/homepage/page.tsx
-msgid "Support the project"
-msgstr "ప్రాజెక్ట్‌కు సపోర్ట్ ఇవ్వండి"
-
 #: src/features/ats-checker/messages.ts
 #: src/libs/resume/ats.ts
 msgid "Swap the start and end dates."
@@ -5957,10 +5893,6 @@ msgstr "ప్రొడక్ట్ మేనేజర్ ఉద్యోగ వ
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Tailoring failed."
 msgstr "అనుకూలీకరణ విఫలమైంది."
-
-#: src/features/homepage/page.tsx
-msgid "Take it<0/>with you."
-msgstr "దీన్ని<0/>మీతో తీసుకెళ్లండి."
 
 #: src/libs/locale.ts
 msgid "Tamil"
@@ -6020,10 +5952,6 @@ msgstr "టెక్స్ట్ హెడర్ లేదా ఫుటర్ �
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "థాయ్"
-
-#: src/features/homepage/page.tsx
-msgid "Thank you for helping keep it free."
-msgstr "దీన్ని ఉచితంగా ఉంచడంలో సాయపడినందుకు ధన్యవాదాలు."
 
 #: src/features/ats-checker/tool.tsx
 msgid "That file could not be read as a PDF."
@@ -6119,10 +6047,6 @@ msgstr "ప్రొవైడర్ చదవలేని సమీక్షన�
 msgid "The provider's response could not be verified. Please start again."
 msgstr "ప్రొవైడర్ ప్రతిస్పందనను ధృవీకరించలేకపోయాము. దయచేసి మళ్లీ ప్రారంభించండి."
 
-#: src/features/homepage/page.tsx
-msgid "The rest of your<0/>job search, too."
-msgstr "మీ ఉద్యోగ అన్వేషణలో<0/>మిగతాదంతా కూడా."
-
 #: src/features/resume/preview/preview.browser.tsx
 msgid "The resume preview could not be updated. The last valid preview is still shown."
 msgstr "రెస్యూమ్ ప్రివ్యూను అప్‌డేట్ చేయలేకపోయింది. చివరి చెల్లుబాటు అయ్యే ప్రివ్యూ ఇప్పటికీ చూపబడుతోంది."
@@ -6162,10 +6086,6 @@ msgstr "థీమ్"
 #: src/dialogs/auth/enable-two-factor.tsx
 msgid "Then, enter the 6 digit code that the app provides to continue."
 msgstr "తర్వాత, యాప్ ఇచ్చిన 6 అంకెల కోడ్‌ను నమోదు చేసి కొనసాగించండి."
-
-#: src/features/homepage/page.tsx
-msgid "There are other ways to pitch in."
-msgstr "సాయపడటానికి ఇంకా ఇతర మార్గాలున్నాయి."
 
 #: src/features/ats-checker/messages.ts
 msgid "There is a gap between two dated roles."
@@ -6567,10 +6487,6 @@ msgstr "మీ మొదటి దరఖాస్తును ట్రాక్
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Track your resume's views and downloads"
 msgstr "మీ రెజ్యూమ్ వీవ్స్ మరియు డౌన్‌లోడ్స్‌ను ట్రాక్ చేయండి"
-
-#: src/features/homepage/page.tsx
-msgid "Translate the app"
-msgstr "యాప్‌ను అనువదించండి"
 
 #: src/features/homepage/site-footer.tsx
 #: src/routes/_home/-sections/footer.tsx
@@ -7104,6 +7020,10 @@ msgstr "వెబ్ శోధన"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Website"
 msgstr "వెబ్‌సైట్"
+
+#: src/features/homepage/page.tsx
+msgid "Welcome to the <0/>GLH<1/><2>CV PORTAL.</2>"
+msgstr ""
 
 #: src/features/ats-checker/parse-preview.tsx
 msgid "What a parser reads"

@@ -141,8 +141,8 @@ msgid "{sectionTitle} · Item {itemNumber}"
 msgstr "{sectionTitle} · Perkara {itemNumber}"
 
 #: src/features/homepage/page.tsx
-msgid "<0>Free forever and open source.</0><1/>No ads, paywalls, or tracking."
-msgstr "<0>Percuma selamanya dan sumber terbuka.</0><1/>Tiada iklan, paywall, atau penjejakan."
+msgid "<0>GLH Professional CVs.</0><1/>"
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "<0>Thank you for using Reactive Resume. I build this app mostly in my spare time, with help from open-source contributors around the world.</0><1>If it has been useful to you and you'd like to keep it free and open for everyone, please consider donating. Any amount helps.</1>"
@@ -220,10 +220,6 @@ msgstr "Pembina resume percuma dan sumber terbuka yang memudahkan anda mencipta,
 msgid "A free collection of accessible patterns for the web."
 msgstr "Koleksi percuma corak kebolehaksesan untuk web."
 
-#: src/features/homepage/page.tsx
-msgid "A free, open-source resume builder. Put your experience on the page, without fighting the formatting."
-msgstr "Pembina resume percuma dan sumber terbuka. Letakkan pengalaman anda pada halaman, tanpa perlu bergelut dengan pemformatan."
-
 #: src/features/homepage/site-footer.tsx
 msgid "A free, open-source resume builder. Yours to keep, yours to export, yours to host."
 msgstr "Pembina resume percuma dan sumber terbuka. Ia milik anda: simpan, eksport dan hoskan sendiri."
@@ -272,17 +268,9 @@ msgstr "Sebuah projek yang digerakkan oleh <0>Amruth Pillai</0>"
 msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "Sebuah projek yang digerakkan oleh <0>Amruth Pillai</0>."
 
-#: src/features/homepage/page.tsx
-msgid "A PDF for the application. A Word file for a few more edits. Download a sample using your choices."
-msgstr "PDF untuk permohonan. Fail Word untuk beberapa suntingan lagi. Muat turun satu contoh menggunakan pilihan anda."
-
 #: src/features/homepage/feature-explorer.tsx
 msgid "A private resume does not appear at its public link."
 msgstr "Resume peribadi tidak akan muncul di pautan awamnya."
-
-#: src/features/homepage/page.tsx
-msgid "A project you can<0/>be part of."
-msgstr "Projek yang boleh anda<0/>sertai."
 
 #: src/features/homepage/ats-playground.tsx
 msgid "A real sample PDF"
@@ -1394,10 +1382,6 @@ msgstr "Sambung dari tempat anda berhenti"
 msgid "Continue where you left off by importing a resume you built in Reactive Resume or another resume builder. Supported formats are PDF, Microsoft Word, and JSON files from Reactive Resume or JSON Resume."
 msgstr "Sambung semula dari tempat anda berhenti dengan mengimport resume yang anda bina dalam Reactive Resume atau pembina resume lain. Format yang disokong ialah PDF, Microsoft Word dan fail JSON daripada Reactive Resume atau JSON Resume."
 
-#: src/features/homepage/page.tsx
-msgid "Contribute code"
-msgstr "Sumbangkan kod"
-
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Conversation copied."
 msgstr "Perbualan disalin."
@@ -1728,13 +1712,13 @@ msgstr "Cipta item ringkasan baharu"
 msgid "Create a new volunteer experience"
 msgstr "Cipta pengalaman sukarelawan baharu"
 
-#: src/features/homepage/page.tsx
-msgid "Create a resume"
-msgstr "Cipta resume"
-
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "Cipta Resume Contoh"
+
+#: src/features/homepage/page.tsx
+msgid "Create and Manage professional CVs using our company Standards."
+msgstr ""
 
 #: src/features/cover-letters/library.tsx
 msgid "Create cover letter"
@@ -2430,10 +2414,6 @@ msgstr "Tamat pada {0}"
 msgid "Explore features"
 msgstr "Terokai ciri"
 
-#: src/features/homepage/page.tsx
-msgid "Explore templates"
-msgstr "Terokai templat"
-
 #: src/libs/resume/section.tsx
 msgid "Export"
 msgstr "Eksport"
@@ -2656,10 +2636,6 @@ msgstr "Ralat kritikal"
 msgid "Features"
 msgstr "Ciri"
 
-#: src/features/homepage/page.tsx
-msgid "Fifteen templates, all free. Pick one you like. You can change the type, color, and layout in the editor."
-msgstr "Lima belas templat, semuanya percuma. Pilih satu yang anda sukai. Anda boleh menukar jenis, warna dan susun atur dalam editor."
-
 #: src/dialogs/resume/import.tsx
 msgid "File"
 msgstr "Fail"
@@ -2683,10 +2659,6 @@ msgstr "Tapis mengikut tag"
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Find the weak bullet points and rewrite them with stronger outcomes, numbers, scope, and sharper verbs."
 msgstr "Cari poin yang lemah dan tulis semula dengan hasil yang lebih kukuh, angka, skop dan kata kerja yang lebih tajam."
-
-#: src/features/homepage/page.tsx
-msgid "Find us on GitHub"
-msgstr "Cari kami di GitHub"
 
 #: src/libs/locale.ts
 msgid "Finnish"
@@ -2833,10 +2805,6 @@ msgstr "Menjana PDF anda..."
 #: src/libs/locale.ts
 msgid "German"
 msgstr "Bahasa Jerman"
-
-#: src/features/homepage/page.tsx
-msgid "Get a second opinion on your writing, share your resume, and keep track of where you’ve applied. It’s all in one place."
-msgstr "Dapatkan pendapat kedua tentang penulisan anda, kongsi resume anda, dan jejaki ke mana sahaja anda telah memohon. Semuanya dalam satu tempat."
 
 #: src/features/homepage/page.tsx
 #: src/features/homepage/site-footer.tsx
@@ -3646,10 +3614,6 @@ msgstr "Padankan teks yang kelihatan dengan destinasi."
 #: src/features/ats-checker/messages.ts
 msgid "Make them visibly larger, bolder or capitalised."
 msgstr "Jadikan ia lebih besar, lebih tebal atau bertulisan besar dengan jelas."
-
-#: src/features/homepage/page.tsx
-msgid "Make yourself <0/>look good<1/><2>on paper.</2>"
-msgstr "Buat <0/>tanggapan baik<1/><2>di atas kertas.</2>"
 
 #: src/libs/locale.ts
 msgid "Malay"
@@ -4648,10 +4612,6 @@ msgstr "Reactive Resume - Pergi ke laman utama"
 msgid "Reactive Resume (JSON)"
 msgstr "Resume Reaktif (JSON)"
 
-#: src/features/homepage/page.tsx
-msgid "Reactive Resume is free and open source. Amruth and a community of contributors keep it running. If you’d like to support the work, donations help cover hosting and development."
-msgstr "Reactive Resume adalah percuma dan sumber terbuka. Amruth dan komuniti penyumbang memastikan ia terus berjalan. Jika anda ingin menyokong karya ini, derma membantu menampung pengehosan dan pembangunan."
-
 #: src/components/ui/donation-toast.tsx
 msgid "Reactive Resume is free and open source. If it has helped you, please consider donating."
 msgstr "Reactive Resume adalah percuma dan sumber terbuka. Jika ia telah membantu anda, sila pertimbangkan untuk menderma."
@@ -4735,10 +4695,6 @@ msgstr "Sedia diaktifkan dengan ralat"
 #: src/features/resume/stylesheet/status.tsx
 msgid "Ready to activate with warnings"
 msgstr "Bersedia untuk diaktifkan dengan amaran"
-
-#: src/features/homepage/page.tsx
-msgid "Ready to put your name on it?"
-msgstr "Bersedia untuk meletakkan nama anda padanya?"
 
 #: src/dialogs/resume/sections/cover-letter.tsx
 #: src/features/cover-letters/editor.tsx
@@ -4864,10 +4820,6 @@ msgstr "Gantikan jadual dengan perenggan dan senarai biasa. Sel diekstrak mengik
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Replace the attached cover letter?"
 msgstr "Gantikan surat lamaran yang dilampirkan?"
-
-#: src/features/homepage/page.tsx
-msgid "Report a bug"
-msgstr "Laporkan pepijat"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Report a Bug"
@@ -5087,10 +5039,6 @@ msgstr "Gaji"
 msgid "Salary range"
 msgstr "Julat gaji"
 
-#: src/features/homepage/page.tsx
-msgid "Same story.<0/>A different look."
-msgstr "Kisah yang sama.<0/>Penampilan yang berbeza."
-
 #: src/features/homepage/export-playground.tsx
 msgid "Sample download format"
 msgstr "Format muat turun contoh"
@@ -5268,14 +5216,6 @@ msgstr "Lihat bagaimana resume ini sepadan dengan siaran"
 #: src/features/homepage/feature-explorer.tsx
 msgid "See how to connect"
 msgstr "Lihat cara menyambung"
-
-#: src/features/homepage/page.tsx
-msgid "See what<0/>software reads."
-msgstr "Lihat apa yang<0/>dibaca oleh perisian."
-
-#: src/features/homepage/page.tsx
-msgid "See whether your PDF has readable text. Read a sample or try your own PDF. Everything runs in your browser, so your file stays with you."
-msgstr "Lihat sama ada PDF anda mempunyai teks yang boleh dibaca. Baca contoh atau cuba PDF anda sendiri. Semuanya berjalan dalam penyemak imbas anda, jadi fail anda kekal bersama anda."
 
 #. placeholder {0}: app.company
 #: src/features/applications/components/table-view.tsx
@@ -5898,10 +5838,6 @@ msgstr "Ringkasan"
 msgid "Support the app by doing what you can!"
 msgstr "Sokong apl ini dengan melakukan apa yang anda mampu!"
 
-#: src/features/homepage/page.tsx
-msgid "Support the project"
-msgstr "Sokong projek ini"
-
 #: src/features/ats-checker/messages.ts
 #: src/libs/resume/ats.ts
 msgid "Swap the start and end dates."
@@ -5957,10 +5893,6 @@ msgstr "Sesuaikan resume ini dengan perihal pekerjaan pengurus produk, dan tekan
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Tailoring failed."
 msgstr "Penyesuaian gagal."
-
-#: src/features/homepage/page.tsx
-msgid "Take it<0/>with you."
-msgstr "Bawa ia<0/>bersama anda."
 
 #: src/libs/locale.ts
 msgid "Tamil"
@@ -6020,10 +5952,6 @@ msgstr "Teks berada di kawasan pengepala atau pengaki."
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "Thai"
-
-#: src/features/homepage/page.tsx
-msgid "Thank you for helping keep it free."
-msgstr "Terima kasih kerana membantu memastikan ia kekal percuma."
 
 #: src/features/ats-checker/tool.tsx
 msgid "That file could not be read as a PDF."
@@ -6119,10 +6047,6 @@ msgstr "Penyedia mengembalikan ulasan yang tidak dapat dibaca. Cuba lagi."
 msgid "The provider's response could not be verified. Please start again."
 msgstr "Respons penyedia tidak dapat disahkan. Sila mulakan semula."
 
-#: src/features/homepage/page.tsx
-msgid "The rest of your<0/>job search, too."
-msgstr "Baki carian kerja anda<0/>juga."
-
 #: src/features/resume/preview/preview.browser.tsx
 msgid "The resume preview could not be updated. The last valid preview is still shown."
 msgstr "Pratonton resume tidak dapat dikemas kini. Pratonton sah terakhir masih dipaparkan."
@@ -6162,10 +6086,6 @@ msgstr "Tema"
 #: src/dialogs/auth/enable-two-factor.tsx
 msgid "Then, enter the 6 digit code that the app provides to continue."
 msgstr "Kemudian, masukkan kod 6 digit yang diberikan oleh apl untuk meneruskan."
-
-#: src/features/homepage/page.tsx
-msgid "There are other ways to pitch in."
-msgstr "Ada cara lain untuk menyumbang."
 
 #: src/features/ats-checker/messages.ts
 msgid "There is a gap between two dated roles."
@@ -6567,10 +6487,6 @@ msgstr "Jejaki permohonan pertama anda"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Track your resume's views and downloads"
 msgstr "Jejak pandangan dan muat turun resume anda"
-
-#: src/features/homepage/page.tsx
-msgid "Translate the app"
-msgstr "Terjemahkan aplikasi ini"
 
 #: src/features/homepage/site-footer.tsx
 #: src/routes/_home/-sections/footer.tsx
@@ -7104,6 +7020,10 @@ msgstr "Carian web"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Website"
 msgstr "Laman web"
+
+#: src/features/homepage/page.tsx
+msgid "Welcome to the <0/>GLH<1/><2>CV PORTAL.</2>"
+msgstr ""
 
 #: src/features/ats-checker/parse-preview.tsx
 msgid "What a parser reads"
