@@ -8,31 +8,15 @@ import type {
 	TemplateStyleSlots,
 } from "../shared/types";
 import { Fragment, useMemo } from "react";
-import { rgbaStringToHex } from "@reactive-resume/utils/color";
-import { Page, StyleSheet, View } from "#react-pdf-renderer";
+import { Image, Page, StyleSheet, View } from "#react-pdf-renderer";
 import { useRender } from "../../context";
 import { useRenderedSectionIds, useResolvedNode } from "../../semantic/context";
 import { semanticNodeKeys } from "../../semantic/node-keys";
 import { createBaseTemplateStyles } from "../shared/base-template-styles";
-import {
-	CustomFieldContactItem,
-	EmailContactItem,
-	LocationContactItem,
-	PhoneContactItem,
-	WebsiteContactItem,
-} from "../shared/contact-item";
 import { TemplateProvider } from "../shared/context";
 import { filterSections } from "../shared/filtering";
 import { getTemplateMetrics } from "../shared/metrics";
-import { hasTemplatePicture } from "../shared/picture";
-import {
-	Heading,
-	SemanticContactListView,
-	SemanticHeaderPicture,
-	SemanticHeaderView,
-	SemanticRegionView,
-	Text,
-} from "../shared/primitives";
+import { Heading, SemanticHeaderView, SemanticRegionView, Text } from "../shared/primitives";
 import { createRtlStyleHelpers } from "../shared/rtl";
 import { Section } from "../shared/sections";
 import { composeStyles, headerNameLineHeight, resolvePlacementColor } from "../shared/styles";
@@ -42,6 +26,7 @@ type AzurillStyles = Omit<TemplateStyleSlots, "page"> & {
 	contentRow: Style;
 	sidebarColumn: Style;
 	mainColumn: Style;
+	horizontalRule: Style;
 	header: Style;
 	picture: Style;
 	headerTitle: Style;
@@ -63,6 +48,9 @@ type AzurillHeaderProps = {
 
 const azurillFeatures = {
 	sectionTimeline: true,
+	experienceRoleFirst: true,
+	educationDegreeFirst: true,
+	languageInline: true,
 } satisfies TemplateFeatures;
 
 export const AzurillPage = ({ page, pageSize, pageMinHeightStyle, showHeader, pageNumber }: TemplatePageProps) => {
@@ -72,8 +60,14 @@ export const AzurillPage = ({ page, pageSize, pageMinHeightStyle, showHeader, pa
 	const { metadata } = data;
 	const { colors, styles, featureStyles } = useAzurillTemplate();
 	const metrics = getTemplateMetrics(metadata.page);
+	const isFirstPage = pageNumber === 1;
 	const sidebarSections = useRenderedSectionIds(pageNodeKey, filterSections(page.sidebar, data));
-	const mainSections = useRenderedSectionIds(pageNodeKey, filterSections(page.main, data));
+	const visibleMainSections = filterSections(page.main, data);
+	const renderedMainSections = useRenderedSectionIds(pageNodeKey, visibleMainSections);
+	const mainSections =
+		isFirstPage && page.main.includes("summary") && renderedMainSections.includes("summary")
+			? ["summary", ...renderedMainSections.filter((section) => section !== "summary")]
+			: renderedMainSections;
 
 	return (
 		<Page
@@ -99,48 +93,79 @@ export const AzurillPage = ({ page, pageSize, pageMinHeightStyle, showHeader, pa
 							rowGap: metrics.sectionGap,
 						})}
 					>
+						<View style={styles.horizontalRule} />
+						<View style={{ rowGap: 4 }}>
+							<View style={{ borderBottomWidth: 0.5, borderBottomColor: "#FCB51B", paddingBottom: 2 }}>
+								<Heading style={{ color: "#000000", fontSize: 12 }}>CONTACT</Heading>
+							</View>
+							<Text style={{ color: "#FCB51B", fontSize: 8, fontWeight: "bold" }}>PHONE</Text>
+							<Text style={{ color: "#000000", fontSize: 9 }}>+256 312314317</Text>
+							<Text style={{ color: "#FCB51B", fontSize: 8, fontWeight: "bold" }}>EMAIL</Text>
+							<Text style={{ color: "#000000", fontSize: 9 }}>hr@gold-serve.com</Text>
+							<Text style={{ color: "#FCB51B", fontSize: 8, fontWeight: "bold" }}>LOCATION</Text>
+							<Text style={{ color: "#000000", fontSize: 9 }}>Kampala, Uganda</Text>
+						</View>
 						{sidebarSections.map((section) => (
 							<Fragment key={section}>
-								<Section section={section} placement="sidebar" />
+								{section === "references" ? <StaticReferences /> : <Section section={section} placement="sidebar" />}
 							</Fragment>
 						))}
 					</SemanticRegionView>
 
 					<SemanticRegionView region="main" style={composeStyles(styles.mainColumn, { rowGap: metrics.sectionGap })}>
 						{mainSections.map((section) => (
-							<Section key={section} section={section} placement="main" />
+							<Fragment key={section}>
+								{section === "summary" && <View style={styles.horizontalRule} />}
+								{section === "references" ? <StaticReferences /> : <Section section={section} placement="main" />}
+							</Fragment>
 						))}
 					</SemanticRegionView>
 				</View>
+				<Image
+					src="/logo/goldserve-people.png"
+					fixed
+					style={{
+						width: 125,
+						height: 95,
+						position: "absolute",
+						bottom: 0,
+						left: 0,
+					}}
+				/>
 			</TemplateProvider>
 		</Page>
 	);
 };
 
+const StaticReferences = () => (
+	<View style={{ rowGap: 4 }}>
+		<Heading
+			style={{
+				color: "#000000",
+				borderBottomWidth: 0.5,
+				borderBottomColor: "#FCB51B",
+				paddingBottom: 2,
+			}}
+		>
+			REFERENCES
+		</Heading>
+		<Text style={{ fontSize: 9 }}>hr@gold-serve.com</Text>
+	</View>
+);
+
 const Header = ({ styles }: AzurillHeaderProps) => {
-	const { basics, picture } = useRender();
-	const hasPicture = hasTemplatePicture(picture);
+	const { basics } = useRender();
 
 	return (
 		<SemanticHeaderView style={styles.header}>
-			{hasPicture && <SemanticHeaderPicture src={picture.url} style={styles.picture} />}
-
-			<View style={styles.headerTitle}>
+			<View style={styles.headerTop}>
 				<View style={styles.headerIdentity}>
 					<Heading style={styles.headerName}>{basics.name}</Heading>
-					<Text>{basics.headline}</Text>
+					<Text style={styles.headerHeadline}>{basics.headline}</Text>
 				</View>
-			</View>
 
-			<SemanticContactListView style={styles.headerContactRow}>
-				<EmailContactItem email={basics.email} style={styles.headerContactItem} />
-				<PhoneContactItem phone={basics.phone} style={styles.headerContactItem} />
-				<LocationContactItem location={basics.location} style={styles.headerContactItem} />
-				<WebsiteContactItem website={basics.website} style={styles.headerContactItem} />
-				{basics.customFields.map((field) => (
-					<CustomFieldContactItem key={field.id} field={field} style={styles.headerContactItem} />
-				))}
-			</SemanticContactListView>
+				<Image src="/logo/glh-light.png" style={styles.glhLogo} />
+			</View>
 		</SemanticHeaderView>
 	);
 };
@@ -150,9 +175,9 @@ const useAzurillTemplate = (): AzurillTemplate => {
 
 	return useMemo(() => {
 		const r = createRtlStyleHelpers(rtl);
-		const foreground = rgbaStringToHex(metadata.design.colors.text);
-		const background = rgbaStringToHex(metadata.design.colors.background);
-		const primary = rgbaStringToHex(metadata.design.colors.primary);
+		const foreground = "#000000";
+		const background = "#FFFFFF";
+		const primary = "#FCB51B";
 		const colors: TemplateColorRoles = { foreground, background, primary };
 		const metrics = getTemplateMetrics(metadata.page);
 
@@ -169,7 +194,10 @@ const useAzurillTemplate = (): AzurillTemplate => {
 				paddingVertical: metrics.page.paddingVertical,
 			},
 			sectionHeading: {
-				color: primary,
+				color: foreground,
+				borderBottomWidth: 0.5,
+				borderBottomColor: primary,
+				paddingBottom: 2,
 			},
 			contentRow: {
 				flexDirection: r.row,
@@ -178,34 +206,42 @@ const useAzurillTemplate = (): AzurillTemplate => {
 			mainColumn: {
 				flex: 1,
 			},
+			horizontalRule: {
+				height: 0.5,
+				backgroundColor: "#D1D3D4",
+				width: "100%",
+				marginBottom: metrics.gapY(1),
+			},
 			header: {
-				alignItems: "center",
 				rowGap: metrics.gapY(0.5),
 			},
-			headerTitle: {
-				alignItems: "center",
-				textAlign: "center",
+
+			headerTop: {
+				flexDirection: "row",
+				justifyContent: "space-between",
+				alignItems: "flex-start",
 			},
+
 			headerIdentity: {
-				alignItems: "center",
-				textAlign: "center",
-				rowGap: metrics.gapY(0.35),
+				alignItems: "flex-start",
+				textAlign: "left",
+				rowGap: metrics.gapY(0.25),
 			},
+
 			headerName: {
 				fontSize: metadata.typography.heading.fontSize * 1.5,
 				lineHeight: headerNameLineHeight,
+				color: foreground,
 			},
-			headerContactRow: {
-				justifyContent: "center",
-				flexDirection: r.row,
-				flexWrap: "wrap",
-				rowGap: metrics.gapY(0.125),
-				columnGap: metrics.gapX(0.5),
+
+			headerHeadline: {
+				color: primary,
+				fontSize: metadata.typography.body.fontSize * 1.1,
 			},
-			headerContactItem: {
-				flexDirection: r.row,
-				alignItems: "center",
-				columnGap: metrics.gapX(1 / 6),
+
+			glhLogo: {
+				width: 120,
+				height: "auto",
 			},
 		});
 
@@ -259,16 +295,35 @@ const useAzurillTemplate = (): AzurillTemplate => {
 			});
 
 		const featureStyles = {
+			languageHeader: {
+				fluency: { color: "#777777" },
+			},
+			educationHeader: {
+				degree: { color: foreground, fontWeight: "bold" },
+				period: { color: primary },
+				school: { color: "#666666" },
+				location: { color: "#666666" },
+			},
+			experienceHeader: {
+				position: { color: foreground, fontWeight: "bold" },
+				period: { color: primary },
+				company: { color: "#D1D3D4", fontStyle: "italic", fontWeight: "bold" },
+				location: { color: "#D1D3D4", fontStyle: "italic" },
+			},
 			sectionTimeline: {
 				...sectionTimelineStyles,
-				line: (context) => ({
+
+				// Timeline line remains neutral grey
+				line: () => ({
 					...sectionTimelineStyles.line,
-					backgroundColor: accentFor(context),
+					top: -metrics.sectionGap,
+					backgroundColor: "#D1D3D4",
 				}),
-				dot: (context) => ({
+
+				// Timeline dots continue using the selected accent colour
+				dot: () => ({
 					...sectionTimelineStyles.dot,
-					borderColor: accentFor(context),
-					backgroundColor: context.colors.background,
+					display: "none",
 				}),
 			},
 		} satisfies TemplateFeatureStyleSlots;
@@ -284,7 +339,13 @@ const useAzurillTemplate = (): AzurillTemplate => {
 				richParagraph: (context) => ({ ...baseStyles.richParagraph, color: foregroundFor(context) }),
 				richListItemMarker: (context) => ({ ...baseStyles.richListItemMarker, color: foregroundFor(context) }),
 				richListItemContent: (context) => ({ ...baseStyles.richListItemContent, color: foregroundFor(context) }),
-				sectionHeading: (context) => ({ ...baseStyles.sectionHeading, color: accentFor(context) }),
+				sectionHeading: () => ({
+					...baseStyles.sectionHeading,
+					color: foreground,
+					borderBottomWidth: 0.5,
+					borderBottomColor: primary,
+					paddingBottom: 2,
+				}),
 				icon: (context) => ({
 					display: metadata.page.hideIcons ? "none" : "flex",
 					size: metadata.typography.body.fontSize,

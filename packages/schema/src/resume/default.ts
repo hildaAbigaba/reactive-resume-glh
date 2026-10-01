@@ -61,14 +61,14 @@ export const defaultResumeData: ResumeData = {
 	},
 	customSections: [],
 	metadata: {
-		template: "onyx",
+		template: "azurill",
 		layout: {
 			sidebarWidth: 35,
 			pages: [
 				{
 					fullWidth: false,
-					main: ["profiles", "summary", "education", "experience", "projects", "volunteer", "references"],
-					sidebar: ["skills", "certifications", "awards", "languages", "interests", "publications"],
+					main: ["summary", "experience", "education", "projects", "volunteer"],
+					sidebar: ["skills", "languages", "certifications", "references", "awards", "interests", "publications"],
 				},
 			],
 		},

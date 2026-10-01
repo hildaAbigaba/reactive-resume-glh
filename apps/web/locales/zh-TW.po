@@ -141,8 +141,8 @@ msgid "{sectionTitle} · Item {itemNumber}"
 msgstr "{sectionTitle} · 項目 {itemNumber} "
 
 #: src/features/homepage/page.tsx
-msgid "<0>Free forever and open source.</0><1/>No ads, paywalls, or tracking."
-msgstr "<0>永久免費，開放原始碼。</0><1/>沒有廣告、付費牆或追蹤。"
+msgid "<0>GLH Professional CVs.</0><1/>"
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "<0>Thank you for using Reactive Resume. I build this app mostly in my spare time, with help from open-source contributors around the world.</0><1>If it has been useful to you and you'd like to keep it free and open for everyone, please consider donating. Any amount helps.</1>"
@@ -220,10 +220,6 @@ msgstr "一款免費且開放原始碼的履歷建立工具，讓您輕鬆建立
 msgid "A free collection of accessible patterns for the web."
 msgstr "一套免費、無障礙的網頁設計模式。"
 
-#: src/features/homepage/page.tsx
-msgid "A free, open-source resume builder. Put your experience on the page, without fighting the formatting."
-msgstr "免費、開放原始碼的履歷編輯器。把你的經歷放上版面，不必再跟排版奮戰。"
-
 #: src/features/homepage/site-footer.tsx
 msgid "A free, open-source resume builder. Yours to keep, yours to export, yours to host."
 msgstr "免費、開放原始碼的履歷編輯器。 履歷屬於你：可保存、可匯出，也能自行架設。"
@@ -272,17 +268,9 @@ msgstr "一個由 <0>Amruth Pillai</0> 發起的熱血專案"
 msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "一個由 <0>Amruth Pillai</0> 發起的熱血專案。"
 
-#: src/features/homepage/page.tsx
-msgid "A PDF for the application. A Word file for a few more edits. Download a sample using your choices."
-msgstr "用於求職的 PDF。用於進一步編輯的 Word 檔案。依照你的選擇下載範例。"
-
 #: src/features/homepage/feature-explorer.tsx
 msgid "A private resume does not appear at its public link."
 msgstr "私密履歷不會顯示在其公開連結中。"
-
-#: src/features/homepage/page.tsx
-msgid "A project you can<0/>be part of."
-msgstr "一個你也能<0/>參與的專案。"
 
 #: src/features/homepage/ats-playground.tsx
 msgid "A real sample PDF"
@@ -1394,10 +1382,6 @@ msgstr "從上次中斷的地方繼續"
 msgid "Continue where you left off by importing a resume you built in Reactive Resume or another resume builder. Supported formats are PDF, Microsoft Word, and JSON files from Reactive Resume or JSON Resume."
 msgstr "匯入您在 Reactive Resume 或其他履歷建立工具中做好的履歷，接續上次的進度。支援的格式為 PDF、Microsoft Word，以及來自 Reactive Resume 或 JSON Resume 的 JSON 檔案。"
 
-#: src/features/homepage/page.tsx
-msgid "Contribute code"
-msgstr "貢獻程式碼"
-
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Conversation copied."
 msgstr "對話已複製。"
@@ -1728,13 +1712,13 @@ msgstr "建立新的摘要項目"
 msgid "Create a new volunteer experience"
 msgstr "建立新的志工經歷"
 
-#: src/features/homepage/page.tsx
-msgid "Create a resume"
-msgstr "建立履歷"
-
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "建立履歷範例"
+
+#: src/features/homepage/page.tsx
+msgid "Create and Manage professional CVs using our company Standards."
+msgstr ""
 
 #: src/features/cover-letters/library.tsx
 msgid "Create cover letter"
@@ -2430,10 +2414,6 @@ msgstr "將於 {0} 到期"
 msgid "Explore features"
 msgstr "探索功能"
 
-#: src/features/homepage/page.tsx
-msgid "Explore templates"
-msgstr "探索範本"
-
 #: src/libs/resume/section.tsx
 msgid "Export"
 msgstr "導出"
@@ -2656,10 +2636,6 @@ msgstr "嚴重錯誤"
 msgid "Features"
 msgstr "功能"
 
-#: src/features/homepage/page.tsx
-msgid "Fifteen templates, all free. Pick one you like. You can change the type, color, and layout in the editor."
-msgstr "十五種範本，全部免費。挑一個你喜歡的，字體、顏色與版面都能在編輯器裡調整。"
-
 #: src/dialogs/resume/import.tsx
 msgid "File"
 msgstr "文件"
@@ -2683,10 +2659,6 @@ msgstr "依標籤篩選"
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Find the weak bullet points and rewrite them with stronger outcomes, numbers, scope, and sharper verbs."
 msgstr "找出比較弱的條列項目，用更明確的成果、數字、規模與更有力的動詞重寫。"
-
-#: src/features/homepage/page.tsx
-msgid "Find us on GitHub"
-msgstr "在 GitHub 上找到我們"
 
 #: src/libs/locale.ts
 msgid "Finnish"
@@ -2833,10 +2805,6 @@ msgstr "正在產生您的 PDF…"
 #: src/libs/locale.ts
 msgid "German"
 msgstr "德文"
-
-#: src/features/homepage/page.tsx
-msgid "Get a second opinion on your writing, share your resume, and keep track of where you’ve applied. It’s all in one place."
-msgstr "為你的文字取得第二意見、分享履歷，並追蹤你申請過的職缺。全都在同一個地方。"
 
 #: src/features/homepage/page.tsx
 #: src/features/homepage/site-footer.tsx
@@ -3646,10 +3614,6 @@ msgstr "讓可見文字和實際連結指向的位址保持一致。"
 #: src/features/ats-checker/messages.ts
 msgid "Make them visibly larger, bolder or capitalised."
 msgstr "把它們改得明顯更大、更粗或全部大寫。"
-
-#: src/features/homepage/page.tsx
-msgid "Make yourself <0/>look good<1/><2>on paper.</2>"
-msgstr "讓你<0/>在紙上<1/><2>脫穎而出。</2>"
 
 #: src/libs/locale.ts
 msgid "Malay"
@@ -4648,10 +4612,6 @@ msgstr "Reactive Resume - 前往首頁"
 msgid "Reactive Resume (JSON)"
 msgstr "反應式履歷 (JSON)"
 
-#: src/features/homepage/page.tsx
-msgid "Reactive Resume is free and open source. Amruth and a community of contributors keep it running. If you’d like to support the work, donations help cover hosting and development."
-msgstr "Reactive Resume 是免費且開放原始碼的。Amruth 與一群貢獻者社群共同維護著它。如果你想支持這份工作，捐款能協助支付主機與開發的費用。"
-
 #: src/components/ui/donation-toast.tsx
 msgid "Reactive Resume is free and open source. If it has helped you, please consider donating."
 msgstr "Reactive Resume 是免費開源的。如果它對您有所幫助，請考慮捐贈。"
@@ -4735,10 +4695,6 @@ msgstr "可啟用，但含有錯誤"
 #: src/features/resume/stylesheet/status.tsx
 msgid "Ready to activate with warnings"
 msgstr "準備啟動並發出警告"
-
-#: src/features/homepage/page.tsx
-msgid "Ready to put your name on it?"
-msgstr "準備好署上你的名字了嗎？"
 
 #: src/dialogs/resume/sections/cover-letter.tsx
 #: src/features/cover-letters/editor.tsx
@@ -4864,10 +4820,6 @@ msgstr "用一般段落和清單取代表格。儲存格是按儲存順序擷取
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Replace the attached cover letter?"
 msgstr "取代已附加的求職信？"
-
-#: src/features/homepage/page.tsx
-msgid "Report a bug"
-msgstr "回報問題"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Report a Bug"
@@ -5087,10 +5039,6 @@ msgstr "薪資"
 msgid "Salary range"
 msgstr "薪資範圍"
 
-#: src/features/homepage/page.tsx
-msgid "Same story.<0/>A different look."
-msgstr "同樣的故事。<0/>不同的呈現。"
-
 #: src/features/homepage/export-playground.tsx
 msgid "Sample download format"
 msgstr "範例下載格式"
@@ -5268,14 +5216,6 @@ msgstr "查看這份履歷與職缺公告的適配情況"
 #: src/features/homepage/feature-explorer.tsx
 msgid "See how to connect"
 msgstr "瞭解如何連接"
-
-#: src/features/homepage/page.tsx
-msgid "See what<0/>software reads."
-msgstr "看看<0/>軟體讀到了什麼。"
-
-#: src/features/homepage/page.tsx
-msgid "See whether your PDF has readable text. Read a sample or try your own PDF. Everything runs in your browser, so your file stays with you."
-msgstr "看看你的 PDF 是否含有可讀取的文字。讀取範例，或試試你自己的 PDF。一切都在你的瀏覽器中執行，檔案始終留在你手上。"
 
 #. placeholder {0}: app.company
 #: src/features/applications/components/table-view.tsx
@@ -5898,10 +5838,6 @@ msgstr "摘要"
 msgid "Support the app by doing what you can!"
 msgstr "盡您所能支持此應用程式！"
 
-#: src/features/homepage/page.tsx
-msgid "Support the project"
-msgstr "支持這個專案"
-
 #: src/features/ats-checker/messages.ts
 #: src/libs/resume/ats.ts
 msgid "Swap the start and end dates."
@@ -5957,10 +5893,6 @@ msgstr "請依產品經理的職缺描述客製這份履歷，並強調藍圖的
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Tailoring failed."
 msgstr "調整失敗。"
-
-#: src/features/homepage/page.tsx
-msgid "Take it<0/>with you."
-msgstr "把它<0/>帶著走。"
 
 #: src/libs/locale.ts
 msgid "Tamil"
@@ -6020,10 +5952,6 @@ msgstr "文字位於頁首或頁尾區域。"
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "泰文"
-
-#: src/features/homepage/page.tsx
-msgid "Thank you for helping keep it free."
-msgstr "感謝你幫忙讓它保持免費。"
 
 #: src/features/ats-checker/tool.tsx
 msgid "That file could not be read as a PDF."
@@ -6119,10 +6047,6 @@ msgstr "提供者回傳的評論內容無法讀取。請重試。"
 msgid "The provider's response could not be verified. Please start again."
 msgstr "無法驗證提供者的回應。請重新開始。"
 
-#: src/features/homepage/page.tsx
-msgid "The rest of your<0/>job search, too."
-msgstr "求職路上的其他事，<0/>也一併包辦。"
-
 #: src/features/resume/preview/preview.browser.tsx
 msgid "The resume preview could not be updated. The last valid preview is still shown."
 msgstr "履歷預覽無法更新，仍顯示上次有效的預覽版本。"
@@ -6162,10 +6086,6 @@ msgstr "佈景主題"
 #: src/dialogs/auth/enable-two-factor.tsx
 msgid "Then, enter the 6 digit code that the app provides to continue."
 msgstr "接著，請輸入應用程式提供的 6 位數驗證碼以繼續。"
-
-#: src/features/homepage/page.tsx
-msgid "There are other ways to pitch in."
-msgstr "還有其他方式可以出一份力。"
 
 #: src/features/ats-checker/messages.ts
 msgid "There is a gap between two dated roles."
@@ -6567,10 +6487,6 @@ msgstr "追蹤你的第一筆應徵紀錄"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Track your resume's views and downloads"
 msgstr "追蹤履歷的檢視與下載次數"
-
-#: src/features/homepage/page.tsx
-msgid "Translate the app"
-msgstr "翻譯這個應用程式"
 
 #: src/features/homepage/site-footer.tsx
 #: src/routes/_home/-sections/footer.tsx
@@ -7104,6 +7020,10 @@ msgstr "網路搜尋"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Website"
 msgstr "個人網站"
+
+#: src/features/homepage/page.tsx
+msgid "Welcome to the <0/>GLH<1/><2>CV PORTAL.</2>"
+msgstr ""
 
 #: src/features/ats-checker/parse-preview.tsx
 msgid "What a parser reads"

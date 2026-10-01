@@ -29,6 +29,9 @@ export type TemplateFeatures = {
 	inlineItemHeader?: boolean;
 	stackSidebarItemHeader?: boolean;
 	skillLevelAfterName?: boolean;
+	experienceRoleFirst?: boolean;
+	educationDegreeFirst?: boolean;
+	languageInline?: boolean;
 };
 
 export type SectionTimelineStyleSlots = {
@@ -40,8 +43,29 @@ export type SectionTimelineStyleSlots = {
 	content?: TemplateStyleSlot;
 };
 
+export type ExperienceHeaderStyleSlots = {
+	position?: TemplateStyleSlot;
+	period?: TemplateStyleSlot;
+	company?: TemplateStyleSlot;
+	location?: TemplateStyleSlot;
+};
+
+export type EducationHeaderStyleSlots = {
+	degree?: TemplateStyleSlot;
+	period?: TemplateStyleSlot;
+	school?: TemplateStyleSlot;
+	location?: TemplateStyleSlot;
+};
+
+export type LanguageHeaderStyleSlots = {
+	fluency?: TemplateStyleSlot;
+};
+
 export type TemplateFeatureStyleSlots = {
 	sectionTimeline?: SectionTimelineStyleSlots;
+	experienceHeader?: ExperienceHeaderStyleSlots;
+	educationHeader?: EducationHeaderStyleSlots;
+	languageHeader?: LanguageHeaderStyleSlots;
 };
 
 export type TemplateStyleSlots = {

@@ -121,6 +121,7 @@ type ItemTitleProps = {
 	website: ItemWebsite;
 	field: string;
 	bold?: boolean;
+	style?: StyleInput;
 };
 
 type ItemWebsiteLinkProps = {
@@ -696,9 +697,12 @@ const SectionItemHeader = ({ children }: SectionItemHeaderProps) => {
 	);
 };
 
-const ItemTitle = ({ children, website, field, bold = true }: ItemTitleProps) => {
+const ItemTitle = ({ children, website, field, bold = true, style: customStyle }: ItemTitleProps) => {
 	const inlineWebsiteUrl = getInlineItemWebsiteUrl(website);
-	const style = use(ItemHeaderRowNowrapContext) ? nowrapItemTitleStyle : wrappingItemTitleStyle;
+	const style = composeStyles(
+		use(ItemHeaderRowNowrapContext) ? nowrapItemTitleStyle : wrappingItemTitleStyle,
+		customStyle,
+	);
 	const title = bold ? (
 		<Bold style={style} semanticField={field}>
 			{children}
@@ -867,6 +871,11 @@ const ExperienceSection = ({ sectionId = "experience", sectionData }: ItemSectio
 	const splitRowStyle = useSectionSplitRowStyle();
 	const alignEndStyle = useTemplateStyle("alignEnd");
 	const inlineItemHeader = useTemplateFeature("inlineItemHeader");
+	const roleFirstHeader = useTemplateFeature("experienceRoleFirst");
+	const roleStyle = useTemplateFeatureStyle("experienceHeader", "position");
+	const periodStyle = useTemplateFeatureStyle("experienceHeader", "period");
+	const companyStyle = useTemplateFeatureStyle("experienceHeader", "company");
+	const locationStyle = useTemplateFeatureStyle("experienceHeader", "location");
 
 	if (items.length === 0) return null;
 
@@ -939,12 +948,48 @@ const ExperienceSection = ({ sectionId = "experience", sectionData }: ItemSectio
 						</>
 					);
 
+					const renderRoleFirstHeader = () => (
+						<>
+							<View style={composeStyles(splitRowStyle)}>
+								{hasPosition && (
+									<Text semanticField="position" style={composeStyles(roleStyle)}>
+										{item.position}
+									</Text>
+								)}
+								{hasSplitRowText(item.period) && (
+									<Text semanticField="period" style={composeStyles(alignEndStyle, periodStyle)}>
+										{item.period}
+									</Text>
+								)}
+							</View>
+							<View style={{ flexDirection: "row", flexWrap: "wrap", alignItems: "flex-start" }}>
+								<ItemTitle field="company" website={item.website} bold={false} style={companyStyle}>
+									{item.company}
+								</ItemTitle>
+								{hasLocation && (
+									<>
+										<Text style={composeStyles(locationStyle)}>, </Text>
+										<Text semanticField="location" style={composeStyles(locationStyle)}>
+											{item.location}
+										</Text>
+									</>
+								)}
+							</View>
+						</>
+					);
+
 					return (
 						<SectionItem key={item.id} itemId={item.id}>
 							<ExperienceItemContent
 								item={item}
 								header={
-									<SectionItemHeader>{inlineItemHeader ? renderInlineHeader() : renderSplitHeader()}</SectionItemHeader>
+									<SectionItemHeader>
+										{roleFirstHeader
+											? renderRoleFirstHeader()
+											: inlineItemHeader
+												? renderInlineHeader()
+												: renderSplitHeader()}
+									</SectionItemHeader>
 								}
 								splitRowStyle={splitRowStyle}
 								alignEndStyle={alignEndStyle}
@@ -960,9 +1005,10 @@ const ExperienceSection = ({ sectionId = "experience", sectionData }: ItemSectio
 type EducationItemContentProps = {
 	item: EducationItem;
 	header: ReactNode;
+	degreeFirst: boolean;
 };
 
-const EducationItemContent = ({ item, header }: EducationItemContentProps) => {
+const EducationItemContent = ({ item, header, degreeFirst }: EducationItemContentProps) => {
 	const itemNodeKey = useSemanticNodeKey();
 	const renderedChildKeys = useRenderedChildKeys(itemNodeKey);
 	const headerNodeKey = itemNodeKey ? semanticNodeKeys.itemHeader(itemNodeKey) : undefined;
@@ -983,16 +1029,20 @@ const EducationItemContent = ({ item, header }: EducationItemContentProps) => {
 						nodeKey: gradeRowNodeKey,
 						value: (
 							<Fragment key={gradeRowNodeKey}>
-								<SemanticTextRuns
-									host="education-grade-location"
-									nodeKey={gradeRowNodeKey}
-									fieldOwnerNodeKey={headerNodeKey}
-									separator=" • "
-									runs={[
-										{ field: "grade", value: item.grade },
-										{ field: "location", value: item.location },
-									]}
-								/>
+								{degreeFirst ? (
+									hasSplitRowText(item.grade) && <Text semanticField="grade">{item.grade}</Text>
+								) : (
+									<SemanticTextRuns
+										host="education-grade-location"
+										nodeKey={gradeRowNodeKey}
+										fieldOwnerNodeKey={headerNodeKey}
+										separator=" • "
+										runs={[
+											{ field: "grade", value: item.grade },
+											{ field: "location", value: item.location },
+										]}
+									/>
+								)}
 							</Fragment>
 						),
 					},
@@ -1034,6 +1084,11 @@ const EducationSection = ({ sectionId = "education", sectionData }: ItemSectionP
 	const splitRowStyle = useSectionSplitRowStyle();
 	const alignEndStyle = useTemplateStyle("alignEnd");
 	const inlineItemHeader = useTemplateFeature("inlineItemHeader");
+	const degreeFirstHeader = useTemplateFeature("educationDegreeFirst");
+	const degreeStyle = useTemplateFeatureStyle("educationHeader", "degree");
+	const periodStyle = useTemplateFeatureStyle("educationHeader", "period");
+	const schoolStyle = useTemplateFeatureStyle("educationHeader", "school");
+	const locationStyle = useTemplateFeatureStyle("educationHeader", "location");
 
 	if (items.length === 0) return null;
 
@@ -1118,12 +1173,57 @@ const EducationSection = ({ sectionId = "education", sectionData }: ItemSectionP
 						</>
 					);
 
+					const renderDegreeFirstHeader = () => (
+						<>
+							<View style={composeStyles(splitRowStyle)}>
+								<View style={{ flexDirection: "row", flexWrap: "wrap" }}>
+									{hasDegree && (
+										<Text semanticField="degree" style={composeStyles(degreeStyle)}>
+											{item.degree}
+										</Text>
+									)}
+									{hasDegree && hasArea && <Text style={composeStyles(degreeStyle)}>, </Text>}
+									{hasArea && (
+										<Text semanticField="area" style={composeStyles(degreeStyle)}>
+											{item.area}
+										</Text>
+									)}
+								</View>
+								{hasSplitRowText(item.period) && (
+									<Text semanticField="period" style={composeStyles(alignEndStyle, periodStyle)}>
+										{item.period}
+									</Text>
+								)}
+							</View>
+							<View style={{ flexDirection: "row", flexWrap: "wrap", alignItems: "flex-start" }}>
+								<ItemTitle field="school" website={item.website} bold={false} style={schoolStyle}>
+									{item.school}
+								</ItemTitle>
+								{hasSplitRowText(item.location) && (
+									<>
+										<Text style={composeStyles(locationStyle)}>, </Text>
+										<Text semanticField="location" style={composeStyles(locationStyle)}>
+											{item.location}
+										</Text>
+									</>
+								)}
+							</View>
+						</>
+					);
+
 					return (
 						<SectionItem key={item.id} itemId={item.id}>
 							<EducationItemContent
 								item={item}
+								degreeFirst={degreeFirstHeader}
 								header={
-									<SectionItemHeader>{inlineItemHeader ? renderInlineHeader() : renderSplitHeader()}</SectionItemHeader>
+									<SectionItemHeader>
+										{degreeFirstHeader
+											? renderDegreeFirstHeader()
+											: inlineItemHeader
+												? renderInlineHeader()
+												: renderSplitHeader()}
+									</SectionItemHeader>
 								}
 							/>
 						</SectionItem>
@@ -1241,6 +1341,8 @@ const LanguagesSection = ({ sectionId = "languages", sectionData }: ItemSectionP
 	const data = useRender();
 	const languages = sectionData ?? data.sections.languages;
 	const items = getVisibleItems(languages, "languages");
+	const inlineHeader = useTemplateFeature("languageInline");
+	const fluencyStyle = useTemplateFeatureStyle("languageHeader", "fluency");
 
 	if (items.length === 0) return null;
 
@@ -1251,8 +1353,19 @@ const LanguagesSection = ({ sectionId = "languages", sectionData }: ItemSectionP
 					<SectionItem key={item.id} itemId={item.id}>
 						<View style={{ flexGrow: languages.columns > 1 ? 1 : 0 }}>
 							<SectionItemHeader>
-								<Bold semanticField="language">{item.language}</Bold>
-								<Text semanticField="fluency">{item.fluency}</Text>
+								{inlineHeader ? (
+									<View style={{ flexDirection: "row", justifyContent: "space-between", width: "100%" }}>
+										<Bold semanticField="language">{item.language}</Bold>
+										<Text semanticField="fluency" style={composeStyles(fluencyStyle)}>
+											{item.fluency}
+										</Text>
+									</View>
+								) : (
+									<>
+										<Bold semanticField="language">{item.language}</Bold>
+										<Text semanticField="fluency">{item.fluency}</Text>
+									</>
+								)}
 							</SectionItemHeader>
 						</View>
 						<LevelDisplay level={item.level} />

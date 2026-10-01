@@ -141,8 +141,8 @@ msgid "{sectionTitle} · Item {itemNumber}"
 msgstr "{sectionTitle} · Položka {itemNumber}"
 
 #: src/features/homepage/page.tsx
-msgid "<0>Free forever and open source.</0><1/>No ads, paywalls, or tracking."
-msgstr "<0>Navždy zdarma a s otevřeným zdrojovým kódem.</0><1/>Žádné reklamy, paywally ani sledování."
+msgid "<0>GLH Professional CVs.</0><1/>"
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "<0>Thank you for using Reactive Resume. I build this app mostly in my spare time, with help from open-source contributors around the world.</0><1>If it has been useful to you and you'd like to keep it free and open for everyone, please consider donating. Any amount helps.</1>"
@@ -220,10 +220,6 @@ msgstr "Bezplatný nástroj pro tvorbu životopisů s otevřeným zdrojovým kó
 msgid "A free collection of accessible patterns for the web."
 msgstr "Bezplatná sbírka přístupných vzorů pro web."
 
-#: src/features/homepage/page.tsx
-msgid "A free, open-source resume builder. Put your experience on the page, without fighting the formatting."
-msgstr "Bezplatný editor životopisů s otevřeným zdrojovým kódem. Dostaňte své zkušenosti na stránku, aniž byste bojovali s formátováním."
-
 #: src/features/homepage/site-footer.tsx
 msgid "A free, open-source resume builder. Yours to keep, yours to export, yours to host."
 msgstr "Bezplatný editor životopisů s otevřeným zdrojovým kódem. Je váš – můžete si ho ponechat, exportovat i hostovat sami."
@@ -272,17 +268,9 @@ msgstr "Osobní projekt <0>Amruth Pillai</0>"
 msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "Osobní projekt <0>Amruth Pillai</0>."
 
-#: src/features/homepage/page.tsx
-msgid "A PDF for the application. A Word file for a few more edits. Download a sample using your choices."
-msgstr "PDF pro žádost a Word pro další úpravy. Stáhněte si ukázku podle svého výběru."
-
 #: src/features/homepage/feature-explorer.tsx
 msgid "A private resume does not appear at its public link."
 msgstr "Soukromý životopis se na svém veřejném odkazu nezobrazí."
-
-#: src/features/homepage/page.tsx
-msgid "A project you can<0/>be part of."
-msgstr "Projekt, jehož součástí<0/>můžete být."
 
 #: src/features/homepage/ats-playground.tsx
 msgid "A real sample PDF"
@@ -1394,10 +1382,6 @@ msgstr "Pokračujte tam, kde jste skončili"
 msgid "Continue where you left off by importing a resume you built in Reactive Resume or another resume builder. Supported formats are PDF, Microsoft Word, and JSON files from Reactive Resume or JSON Resume."
 msgstr "Navažte tam, kde jste skončili, importem životopisu vytvořeného v Reactive Resume nebo jiném nástroji pro tvorbu životopisů. Podporované formáty jsou PDF, Microsoft Word a soubory JSON z Reactive Resume nebo JSON Resume."
 
-#: src/features/homepage/page.tsx
-msgid "Contribute code"
-msgstr "Přispějte kódem"
-
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Conversation copied."
 msgstr "Konverzace zkopírována."
@@ -1728,13 +1712,13 @@ msgstr "Vytvořit novou položku souhrnu"
 msgid "Create a new volunteer experience"
 msgstr "Vytvořit novou dobrovolnickou zkušenost"
 
-#: src/features/homepage/page.tsx
-msgid "Create a resume"
-msgstr "Vytvořte životopis"
-
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "Vytvořit ukázkový životopis"
+
+#: src/features/homepage/page.tsx
+msgid "Create and Manage professional CVs using our company Standards."
+msgstr ""
 
 #: src/features/cover-letters/library.tsx
 msgid "Create cover letter"
@@ -2430,10 +2414,6 @@ msgstr "Platnost vyprší {0}"
 msgid "Explore features"
 msgstr "Prozkoumat funkce"
 
-#: src/features/homepage/page.tsx
-msgid "Explore templates"
-msgstr "Prozkoumat šablony"
-
 #: src/libs/resume/section.tsx
 msgid "Export"
 msgstr "Export"
@@ -2656,10 +2636,6 @@ msgstr "Fatální chyba"
 msgid "Features"
 msgstr "Funkce"
 
-#: src/features/homepage/page.tsx
-msgid "Fifteen templates, all free. Pick one you like. You can change the type, color, and layout in the editor."
-msgstr "Patnáct šablon, všechny zdarma. Vyberte si tu, která se vám líbí. Typ, barvu a rozložení změníte v editoru."
-
 #: src/dialogs/resume/import.tsx
 msgid "File"
 msgstr "Soubor"
@@ -2683,10 +2659,6 @@ msgstr "Filtrovat podle štítků"
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Find the weak bullet points and rewrite them with stronger outcomes, numbers, scope, and sharper verbs."
 msgstr "Najděte slabé odrážky a přepište je se silnějšími výsledky, čísly, rozsahem a výstižnějšími slovesy."
-
-#: src/features/homepage/page.tsx
-msgid "Find us on GitHub"
-msgstr "Najdete nás na GitHubu"
 
 #: src/libs/locale.ts
 msgid "Finnish"
@@ -2833,10 +2805,6 @@ msgstr "Generujeme vaše PDF..."
 #: src/libs/locale.ts
 msgid "German"
 msgstr "Němčina"
-
-#: src/features/homepage/page.tsx
-msgid "Get a second opinion on your writing, share your resume, and keep track of where you’ve applied. It’s all in one place."
-msgstr "Získejte druhý názor na svůj text, sdílejte životopis a sledujte, kam jste se hlásili. Vše na jednom místě."
 
 #: src/features/homepage/page.tsx
 #: src/features/homepage/site-footer.tsx
@@ -3646,10 +3614,6 @@ msgstr "Zajistěte, aby se viditelný text a cíl odkazu shodovaly."
 #: src/features/ats-checker/messages.ts
 msgid "Make them visibly larger, bolder or capitalised."
 msgstr "Udělejte je viditelně větší, tučnější nebo velkými písmeny."
-
-#: src/features/homepage/page.tsx
-msgid "Make yourself <0/>look good<1/><2>on paper.</2>"
-msgstr "Udělejte <0/>dobrý dojem<1/><2>na papíře.</2>"
 
 #: src/libs/locale.ts
 msgid "Malay"
@@ -4648,10 +4612,6 @@ msgstr "Reactive Resume – přejít na domovskou stránku"
 msgid "Reactive Resume (JSON)"
 msgstr "Reaktivní životopis (JSON)"
 
-#: src/features/homepage/page.tsx
-msgid "Reactive Resume is free and open source. Amruth and a community of contributors keep it running. If you’d like to support the work, donations help cover hosting and development."
-msgstr "Reactive Resume je zdarma a s otevřeným zdrojovým kódem. Amruth a komunita přispěvatelů ho udržují v chodu. Pokud chcete tuto práci podpořit, dary pomáhají s pokrytím hostingu a vývoje."
-
 #: src/components/ui/donation-toast.tsx
 msgid "Reactive Resume is free and open source. If it has helped you, please consider donating."
 msgstr "Reactive Resume je zdarma a má otevřený zdrojový kód. Pokud vám pomohl, zvažte prosím dar."
@@ -4735,10 +4695,6 @@ msgstr "Připraveno k aktivaci s chybami"
 #: src/features/resume/stylesheet/status.tsx
 msgid "Ready to activate with warnings"
 msgstr "Připraveno k aktivaci s varováními"
-
-#: src/features/homepage/page.tsx
-msgid "Ready to put your name on it?"
-msgstr "Připraveni na něj podepsat se svým jménem?"
 
 #: src/dialogs/resume/sections/cover-letter.tsx
 #: src/features/cover-letters/editor.tsx
@@ -4864,10 +4820,6 @@ msgstr "Nahraďte tabulky prostými odstavci a seznamy. Buňky se extrahují v p
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Replace the attached cover letter?"
 msgstr "Nahradit přiložený průvodní dopis?"
-
-#: src/features/homepage/page.tsx
-msgid "Report a bug"
-msgstr "Nahlásit chybu"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Report a Bug"
@@ -5087,10 +5039,6 @@ msgstr "Plat"
 msgid "Salary range"
 msgstr "Platové rozpětí"
 
-#: src/features/homepage/page.tsx
-msgid "Same story.<0/>A different look."
-msgstr "Stejný příběh.<0/>Jiný vzhled."
-
 #: src/features/homepage/export-playground.tsx
 msgid "Sample download format"
 msgstr "Formát stažení ukázky"
@@ -5268,14 +5216,6 @@ msgstr "Podívejte se, jak tento životopis odpovídá inzerátu"
 #: src/features/homepage/feature-explorer.tsx
 msgid "See how to connect"
 msgstr "Podívejte se, jak se připojit"
-
-#: src/features/homepage/page.tsx
-msgid "See what<0/>software reads."
-msgstr "Podívejte se, co<0/>software čte."
-
-#: src/features/homepage/page.tsx
-msgid "See whether your PDF has readable text. Read a sample or try your own PDF. Everything runs in your browser, so your file stays with you."
-msgstr "Zjistěte, zda má vaše PDF čitelný text. Přečtěte si ukázku nebo vyzkoušejte vlastní PDF. Vše běží ve vašem prohlížeči, takže soubor zůstává u vás."
 
 #. placeholder {0}: app.company
 #: src/features/applications/components/table-view.tsx
@@ -5898,10 +5838,6 @@ msgstr "Souhrn"
 msgid "Support the app by doing what you can!"
 msgstr "Podpořte aplikaci tím, co můžete!"
 
-#: src/features/homepage/page.tsx
-msgid "Support the project"
-msgstr "Podpořte projekt"
-
 #: src/features/ats-checker/messages.ts
 #: src/libs/resume/ats.ts
 msgid "Swap the start and end dates."
@@ -5957,10 +5893,6 @@ msgstr "Přizpůsobte tento životopis popisu pozice product managera a zdůrazn
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Tailoring failed."
 msgstr "Krejčovství selhalo."
-
-#: src/features/homepage/page.tsx
-msgid "Take it<0/>with you."
-msgstr "Vezměte si ho<0/>s sebou."
 
 #: src/libs/locale.ts
 msgid "Tamil"
@@ -6020,10 +5952,6 @@ msgstr "Text se nachází v oblasti záhlaví nebo zápatí."
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "Thajština"
-
-#: src/features/homepage/page.tsx
-msgid "Thank you for helping keep it free."
-msgstr "Děkujeme, že pomáháte udržet ho zdarma."
 
 #: src/features/ats-checker/tool.tsx
 msgid "That file could not be read as a PDF."
@@ -6119,10 +6047,6 @@ msgstr "Poskytovatel vrátil hodnocení, které se nepodařilo přečíst. Zkust
 msgid "The provider's response could not be verified. Please start again."
 msgstr "Odpověď poskytovatele se nepodařilo ověřit. Začněte prosím znovu."
 
-#: src/features/homepage/page.tsx
-msgid "The rest of your<0/>job search, too."
-msgstr "I zbytek vašeho<0/>hledání práce."
-
 #: src/features/resume/preview/preview.browser.tsx
 msgid "The resume preview could not be updated. The last valid preview is still shown."
 msgstr "Náhled životopisu se nepodařilo aktualizovat. Stále se zobrazuje poslední platný náhled."
@@ -6162,10 +6086,6 @@ msgstr "Motiv"
 #: src/dialogs/auth/enable-two-factor.tsx
 msgid "Then, enter the 6 digit code that the app provides to continue."
 msgstr "Poté zadejte šestimístný kód, který aplikace poskytne, abyste mohli pokračovat."
-
-#: src/features/homepage/page.tsx
-msgid "There are other ways to pitch in."
-msgstr "Existují i další způsoby, jak přispět."
 
 #: src/features/ats-checker/messages.ts
 msgid "There is a gap between two dated roles."
@@ -6567,10 +6487,6 @@ msgstr "Sledujte svou první žádost"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Track your resume's views and downloads"
 msgstr "Sledujte zobrazení a stažení svého životopisu"
-
-#: src/features/homepage/page.tsx
-msgid "Translate the app"
-msgstr "Přeložte aplikaci"
 
 #: src/features/homepage/site-footer.tsx
 #: src/routes/_home/-sections/footer.tsx
@@ -7104,6 +7020,10 @@ msgstr "Vyhledávání na webu"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Website"
 msgstr "Web"
+
+#: src/features/homepage/page.tsx
+msgid "Welcome to the <0/>GLH<1/><2>CV PORTAL.</2>"
+msgstr ""
 
 #: src/features/ats-checker/parse-preview.tsx
 msgid "What a parser reads"

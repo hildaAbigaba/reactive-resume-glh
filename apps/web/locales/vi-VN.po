@@ -141,8 +141,8 @@ msgid "{sectionTitle} · Item {itemNumber}"
 msgstr "{sectionTitle} · Mục {itemNumber}"
 
 #: src/features/homepage/page.tsx
-msgid "<0>Free forever and open source.</0><1/>No ads, paywalls, or tracking."
-msgstr "<0>Miễn phí vĩnh viễn và mã nguồn mở.</0><1/>Không quảng cáo, không tường phí, không theo dõi."
+msgid "<0>GLH Professional CVs.</0><1/>"
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "<0>Thank you for using Reactive Resume. I build this app mostly in my spare time, with help from open-source contributors around the world.</0><1>If it has been useful to you and you'd like to keep it free and open for everyone, please consider donating. Any amount helps.</1>"
@@ -220,10 +220,6 @@ msgstr "Công cụ tạo sơ yếu lý lịch miễn phí và mã nguồn mở, 
 msgid "A free collection of accessible patterns for the web."
 msgstr "Một bộ mẫu dễ tiếp cận dành cho web, hoàn toàn miễn phí."
 
-#: src/features/homepage/page.tsx
-msgid "A free, open-source resume builder. Put your experience on the page, without fighting the formatting."
-msgstr "Trình tạo sơ yếu lý lịch mã nguồn mở, miễn phí. Đưa kinh nghiệm của bạn lên trang giấy mà không phải vật lộn với việc định dạng."
-
 #: src/features/homepage/site-footer.tsx
 msgid "A free, open-source resume builder. Yours to keep, yours to export, yours to host."
 msgstr "Trình tạo sơ yếu lý lịch mã nguồn mở, miễn phí. Nó là của bạn: giữ lại, xuất ra và tự lưu trữ."
@@ -272,17 +268,9 @@ msgstr "Một dự án tâm huyết của <0>Amruth Pillai</0>"
 msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "Một dự án tâm huyết của <0>Amruth Pillai</0>."
 
-#: src/features/homepage/page.tsx
-msgid "A PDF for the application. A Word file for a few more edits. Download a sample using your choices."
-msgstr "Một tệp PDF để nộp đơn. Một tệp Word nếu bạn muốn chỉnh sửa thêm. Tải xuống một bản mẫu theo lựa chọn của bạn."
-
 #: src/features/homepage/feature-explorer.tsx
 msgid "A private resume does not appear at its public link."
 msgstr "Một sơ yếu lý lịch ở chế độ riêng tư sẽ không xuất hiện trên liên kết công khai của nó."
-
-#: src/features/homepage/page.tsx
-msgid "A project you can<0/>be part of."
-msgstr "Một dự án bạn có thể<0/>tham gia."
 
 #: src/features/homepage/ats-playground.tsx
 msgid "A real sample PDF"
@@ -1394,10 +1382,6 @@ msgstr "Tiếp tục từ nơi bạn đã dừng lại"
 msgid "Continue where you left off by importing a resume you built in Reactive Resume or another resume builder. Supported formats are PDF, Microsoft Word, and JSON files from Reactive Resume or JSON Resume."
 msgstr "Tiếp tục từ chỗ bạn đang dở bằng cách nhập một sơ yếu lý lịch bạn đã tạo trong Reactive Resume hoặc một công cụ tạo sơ yếu lý lịch khác. Các định dạng được hỗ trợ là PDF, Microsoft Word và tệp JSON từ Reactive Resume hoặc JSON Resume."
 
-#: src/features/homepage/page.tsx
-msgid "Contribute code"
-msgstr "Đóng góp mã nguồn"
-
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Conversation copied."
 msgstr "Cuộc hội thoại đã được sao chép."
@@ -1728,13 +1712,13 @@ msgstr "Tạo mục tóm tắt mới"
 msgid "Create a new volunteer experience"
 msgstr "Tạo hoạt động tình nguyện mới"
 
-#: src/features/homepage/page.tsx
-msgid "Create a resume"
-msgstr "Tạo sơ yếu lý lịch"
-
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "Tạo sơ yếu lý lịch mẫu"
+
+#: src/features/homepage/page.tsx
+msgid "Create and Manage professional CVs using our company Standards."
+msgstr ""
 
 #: src/features/cover-letters/library.tsx
 msgid "Create cover letter"
@@ -2430,10 +2414,6 @@ msgstr "Hết hạn vào {0}"
 msgid "Explore features"
 msgstr "Khám phá tính năng"
 
-#: src/features/homepage/page.tsx
-msgid "Explore templates"
-msgstr "Khám phá các mẫu"
-
 #: src/libs/resume/section.tsx
 msgid "Export"
 msgstr "Xuất"
@@ -2656,10 +2636,6 @@ msgstr "Lỗi nghiêm trọng"
 msgid "Features"
 msgstr "Tính năng"
 
-#: src/features/homepage/page.tsx
-msgid "Fifteen templates, all free. Pick one you like. You can change the type, color, and layout in the editor."
-msgstr "Mười lăm mẫu, tất cả đều miễn phí. Hãy chọn một mẫu bạn thích. Bạn có thể đổi kiểu, màu sắc và cách bố trí ngay trong trình biên tập."
-
 #: src/dialogs/resume/import.tsx
 msgid "File"
 msgstr "Tài liệu"
@@ -2683,10 +2659,6 @@ msgstr "Lọc theo thẻ"
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Find the weak bullet points and rewrite them with stronger outcomes, numbers, scope, and sharper verbs."
 msgstr "Tìm những gạch đầu dòng còn yếu và viết lại chúng với kết quả rõ hơn, có số liệu, phạm vi và động từ sắc bén hơn."
-
-#: src/features/homepage/page.tsx
-msgid "Find us on GitHub"
-msgstr "Tìm chúng tôi trên GitHub"
 
 #: src/libs/locale.ts
 msgid "Finnish"
@@ -2833,10 +2805,6 @@ msgstr "Đang tạo PDF của bạn..."
 #: src/libs/locale.ts
 msgid "German"
 msgstr "Tiếng Đức"
-
-#: src/features/homepage/page.tsx
-msgid "Get a second opinion on your writing, share your resume, and keep track of where you’ve applied. It’s all in one place."
-msgstr "Xin thêm một góp ý về cách viết của bạn, chia sẻ sơ yếu lý lịch và theo dõi những nơi bạn đã nộp hồ sơ. Tất cả nằm trong một nơi duy nhất."
 
 #: src/features/homepage/page.tsx
 #: src/features/homepage/site-footer.tsx
@@ -3646,10 +3614,6 @@ msgstr "Làm cho văn bản hiển thị khớp với địa chỉ đích."
 #: src/features/ats-checker/messages.ts
 msgid "Make them visibly larger, bolder or capitalised."
 msgstr "Làm cho chúng lớn hơn, đậm hơn hoặc viết hoa để dễ nhận biết."
-
-#: src/features/homepage/page.tsx
-msgid "Make yourself <0/>look good<1/><2>on paper.</2>"
-msgstr "Tạo ấn tượng <0/>tốt<1/><2>trên trang giấy.</2>"
 
 #: src/libs/locale.ts
 msgid "Malay"
@@ -4648,10 +4612,6 @@ msgstr "Reactive Resume - Về trang chủ"
 msgid "Reactive Resume (JSON)"
 msgstr "Sơ yếu lý lịch động (JSON)"
 
-#: src/features/homepage/page.tsx
-msgid "Reactive Resume is free and open source. Amruth and a community of contributors keep it running. If you’d like to support the work, donations help cover hosting and development."
-msgstr "Reactive Resume miễn phí và mã nguồn mở. Amruth cùng cộng đồng những người đóng góp luôn duy trì nó. Nếu bạn muốn ủng hộ, các khoản quyên góp sẽ giúp trang trải chi phí lưu trữ và phát triển."
-
 #: src/components/ui/donation-toast.tsx
 msgid "Reactive Resume is free and open source. If it has helped you, please consider donating."
 msgstr "Reactive Resume là phần mềm mã nguồn mở miễn phí. Nếu thấy hữu ích, xin vui lòng xem xét quyên góp."
@@ -4735,10 +4695,6 @@ msgstr "Sẵn sàng kích hoạt dù có lỗi"
 #: src/features/resume/stylesheet/status.tsx
 msgid "Ready to activate with warnings"
 msgstr "Sẵn sàng kích hoạt kèm cảnh báo"
-
-#: src/features/homepage/page.tsx
-msgid "Ready to put your name on it?"
-msgstr "Sẵn sàng ghi tên mình lên đó chưa?"
 
 #: src/dialogs/resume/sections/cover-letter.tsx
 #: src/features/cover-letters/editor.tsx
@@ -4864,10 +4820,6 @@ msgstr "Thay thế bảng biểu bằng đoạn văn và danh sách thuần túy
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Replace the attached cover letter?"
 msgstr "Thay thế thư xin việc đính kèm?"
-
-#: src/features/homepage/page.tsx
-msgid "Report a bug"
-msgstr "Báo lỗi"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Report a Bug"
@@ -5087,10 +5039,6 @@ msgstr "Lương"
 msgid "Salary range"
 msgstr "Khoảng lương"
 
-#: src/features/homepage/page.tsx
-msgid "Same story.<0/>A different look."
-msgstr "Cùng một câu chuyện.<0/>Nhưng diện mạo khác biệt."
-
 #: src/features/homepage/export-playground.tsx
 msgid "Sample download format"
 msgstr "Định dạng tải xuống của bản mẫu"
@@ -5268,14 +5216,6 @@ msgstr "Xem sơ yếu lý lịch này khớp với tin tuyển dụng như thế
 #: src/features/homepage/feature-explorer.tsx
 msgid "See how to connect"
 msgstr "Xem cách kết nối"
-
-#: src/features/homepage/page.tsx
-msgid "See what<0/>software reads."
-msgstr "Xem phần mềm<0/>đọc được gì."
-
-#: src/features/homepage/page.tsx
-msgid "See whether your PDF has readable text. Read a sample or try your own PDF. Everything runs in your browser, so your file stays with you."
-msgstr "Xem PDF của bạn có chứa văn bản đọc được hay không. Đọc một bản mẫu hoặc thử với PDF của riêng bạn. Mọi thứ chạy ngay trong trình duyệt, nên tệp của bạn luôn ở phía bạn."
 
 #. placeholder {0}: app.company
 #: src/features/applications/components/table-view.tsx
@@ -5898,10 +5838,6 @@ msgstr "Tóm tắt"
 msgid "Support the app by doing what you can!"
 msgstr "Hãy ủng hộ ứng dụng bằng cách làm bất cứ điều gì bạn có thể!"
 
-#: src/features/homepage/page.tsx
-msgid "Support the project"
-msgstr "Ủng hộ dự án"
-
 #: src/features/ats-checker/messages.ts
 #: src/libs/resume/ats.ts
 msgid "Swap the start and end dates."
@@ -5957,10 +5893,6 @@ msgstr "Điều chỉnh sơ yếu lý lịch này theo một mô tả công vi�
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Tailoring failed."
 msgstr "Tinh chỉnh thất bại."
-
-#: src/features/homepage/page.tsx
-msgid "Take it<0/>with you."
-msgstr "Mang nó<0/>theo bạn."
 
 #: src/libs/locale.ts
 msgid "Tamil"
@@ -6020,10 +5952,6 @@ msgstr "Văn bản nằm trong vùng đầu trang hoặc chân trang."
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "Thái"
-
-#: src/features/homepage/page.tsx
-msgid "Thank you for helping keep it free."
-msgstr "Cảm ơn bạn đã giúp giữ cho nó miễn phí."
 
 #: src/features/ats-checker/tool.tsx
 msgid "That file could not be read as a PDF."
@@ -6119,10 +6047,6 @@ msgstr "Nhà cung cấp đã trả về một đánh giá không thể đọc đ
 msgid "The provider's response could not be verified. Please start again."
 msgstr "Không thể xác minh phản hồi của nhà cung cấp. Vui lòng bắt đầu lại."
 
-#: src/features/homepage/page.tsx
-msgid "The rest of your<0/>job search, too."
-msgstr "Cả phần còn lại của<0/>hành trình tìm việc."
-
 #: src/features/resume/preview/preview.browser.tsx
 msgid "The resume preview could not be updated. The last valid preview is still shown."
 msgstr "Không thể cập nhật bản xem trước sơ yếu lý lịch. Bản xem trước hợp lệ cuối cùng vẫn được hiển thị."
@@ -6162,10 +6086,6 @@ msgstr "Chủ đề"
 #: src/dialogs/auth/enable-two-factor.tsx
 msgid "Then, enter the 6 digit code that the app provides to continue."
 msgstr "Sau đó, nhập mã 6 chữ số mà ứng dụng cung cấp để tiếp tục."
-
-#: src/features/homepage/page.tsx
-msgid "There are other ways to pitch in."
-msgstr "Còn có nhiều cách khác để chung tay."
 
 #: src/features/ats-checker/messages.ts
 msgid "There is a gap between two dated roles."
@@ -6567,10 +6487,6 @@ msgstr "Theo dõi hồ sơ ứng tuyển đầu tiên của bạn"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Track your resume's views and downloads"
 msgstr "Theo dõi lượt xem và lượt tải xuống hồ sơ của bạn"
-
-#: src/features/homepage/page.tsx
-msgid "Translate the app"
-msgstr "Dịch ứng dụng"
 
 #: src/features/homepage/site-footer.tsx
 #: src/routes/_home/-sections/footer.tsx
@@ -7104,6 +7020,10 @@ msgstr "Tìm kiếm trên web"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Website"
 msgstr "Trang web"
+
+#: src/features/homepage/page.tsx
+msgid "Welcome to the <0/>GLH<1/><2>CV PORTAL.</2>"
+msgstr ""
 
 #: src/features/ats-checker/parse-preview.tsx
 msgid "What a parser reads"

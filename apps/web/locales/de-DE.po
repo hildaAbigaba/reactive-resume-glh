@@ -141,8 +141,8 @@ msgid "{sectionTitle} · Item {itemNumber}"
 msgstr "{sectionTitle} · Artikel {itemNumber}"
 
 #: src/features/homepage/page.tsx
-msgid "<0>Free forever and open source.</0><1/>No ads, paywalls, or tracking."
-msgstr "<0>Für immer kostenlos und Open Source.</0><1/>Keine Werbung, Paywalls oder Tracking."
+msgid "<0>GLH Professional CVs.</0><1/>"
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "<0>Thank you for using Reactive Resume. I build this app mostly in my spare time, with help from open-source contributors around the world.</0><1>If it has been useful to you and you'd like to keep it free and open for everyone, please consider donating. Any amount helps.</1>"
@@ -220,10 +220,6 @@ msgstr "Ein kostenloser Open-Source-Lebenslauf-Builder, mit dem Sie Ihren Lebens
 msgid "A free collection of accessible patterns for the web."
 msgstr "Eine kostenlose Sammlung zugänglicher Muster fürs Web."
 
-#: src/features/homepage/page.tsx
-msgid "A free, open-source resume builder. Put your experience on the page, without fighting the formatting."
-msgstr "Ein kostenloser, Open-Source-Lebenslauf-Builder. Setze deine Erfahrungen auf die Seite, ohne mit dem Format kämpfen zu müssen."
-
 #: src/features/homepage/site-footer.tsx
 msgid "A free, open-source resume builder. Yours to keep, yours to export, yours to host."
 msgstr "Ein kostenloser, Open-Source-Lebenslauf-Builder. Er gehört dir: behalte ihn, exportiere ihn, hoste ihn selbst."
@@ -272,17 +268,9 @@ msgstr "Ein Herzensprojekt von <0>Amruth Pillai</0>"
 msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "Ein Herzensprojekt von <0>Amruth Pillai</0>."
 
-#: src/features/homepage/page.tsx
-msgid "A PDF for the application. A Word file for a few more edits. Download a sample using your choices."
-msgstr "Ein PDF für die Bewerbung. Eine Word-Datei für ein paar weitere Änderungen. Lade ein Muster mit deinen Auswahlmöglichkeiten herunter."
-
 #: src/features/homepage/feature-explorer.tsx
 msgid "A private resume does not appear at its public link."
 msgstr "Ein privater Lebenslauf erscheint nicht unter seinem öffentlichen Link."
-
-#: src/features/homepage/page.tsx
-msgid "A project you can<0/>be part of."
-msgstr "Ein Projekt, bei dem du<0/>Teil sein kannst."
 
 #: src/features/homepage/ats-playground.tsx
 msgid "A real sample PDF"
@@ -1394,10 +1382,6 @@ msgstr "Dort weitermachen, wo du aufgehört hast"
 msgid "Continue where you left off by importing a resume you built in Reactive Resume or another resume builder. Supported formats are PDF, Microsoft Word, and JSON files from Reactive Resume or JSON Resume."
 msgstr "Machen Sie dort weiter, wo Sie aufgehört haben, indem Sie einen Lebenslauf importieren, den Sie in Reactive Resume oder einem anderen Lebenslauf-Builder erstellt haben. Unterstützte Formate sind PDF, Microsoft Word und JSON-Dateien aus Reactive Resume oder JSON Resume."
 
-#: src/features/homepage/page.tsx
-msgid "Contribute code"
-msgstr "Code beitragen"
-
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Conversation copied."
 msgstr "Konversation kopiert."
@@ -1728,13 +1712,13 @@ msgstr "Neues Zusammenfassung-Element erstellen"
 msgid "Create a new volunteer experience"
 msgstr "Eine neue Freiwilligenerfahrung erstellen"
 
-#: src/features/homepage/page.tsx
-msgid "Create a resume"
-msgstr "Einen Lebenslauf erstellen"
-
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "Beispiel-Lebenslauf erstellen"
+
+#: src/features/homepage/page.tsx
+msgid "Create and Manage professional CVs using our company Standards."
+msgstr ""
 
 #: src/features/cover-letters/library.tsx
 msgid "Create cover letter"
@@ -2430,10 +2414,6 @@ msgstr "Läuft am {0} ab"
 msgid "Explore features"
 msgstr "Funktionen entdecken"
 
-#: src/features/homepage/page.tsx
-msgid "Explore templates"
-msgstr "Vorlagen entdecken"
-
 #: src/libs/resume/section.tsx
 msgid "Export"
 msgstr "Exportieren"
@@ -2656,10 +2636,6 @@ msgstr "Schwerwiegender Fehler"
 msgid "Features"
 msgstr "Funktionen"
 
-#: src/features/homepage/page.tsx
-msgid "Fifteen templates, all free. Pick one you like. You can change the type, color, and layout in the editor."
-msgstr "Fünfzehn Vorlagen, alle kostenlos. Wähle eine aus, die dir gefällt. Du kannst Typ, Farbe und Layout im Editor ändern."
-
 #: src/dialogs/resume/import.tsx
 msgid "File"
 msgstr "Datei"
@@ -2683,10 +2659,6 @@ msgstr "Nach Tags filtern"
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Find the weak bullet points and rewrite them with stronger outcomes, numbers, scope, and sharper verbs."
 msgstr "Finden Sie die schwachen Aufzählungspunkte und schreiben Sie sie mit stärkeren Ergebnissen, Zahlen, Umfang und prägnanteren Verben neu."
-
-#: src/features/homepage/page.tsx
-msgid "Find us on GitHub"
-msgstr "Finde uns auf GitHub"
 
 #: src/libs/locale.ts
 msgid "Finnish"
@@ -2833,10 +2805,6 @@ msgstr "Ihre PDF-Datei wird erstellt..."
 #: src/libs/locale.ts
 msgid "German"
 msgstr "Deutsch"
-
-#: src/features/homepage/page.tsx
-msgid "Get a second opinion on your writing, share your resume, and keep track of where you’ve applied. It’s all in one place."
-msgstr "Hol dir eine zweite Meinung zu deinem Text, teile deinen Lebenslauf und behalte im Blick, wohin du dich beworben hast. Alles an einem Ort."
 
 #: src/features/homepage/page.tsx
 #: src/features/homepage/site-footer.tsx
@@ -3646,10 +3614,6 @@ msgstr "Sorgen Sie dafür, dass sichtbarer Text und Ziel übereinstimmen."
 #: src/features/ats-checker/messages.ts
 msgid "Make them visibly larger, bolder or capitalised."
 msgstr "Machen Sie sie sichtbar größer, fetter oder in Großbuchstaben."
-
-#: src/features/homepage/page.tsx
-msgid "Make yourself <0/>look good<1/><2>on paper.</2>"
-msgstr "Mach eine <0/>gute Figur<1/><2>auf dem Papier.</2>"
 
 #: src/libs/locale.ts
 msgid "Malay"
@@ -4648,10 +4612,6 @@ msgstr "Reactive Resume – Zur Startseite gehen"
 msgid "Reactive Resume (JSON)"
 msgstr "Reaktiver Lebenslauf (JSON)"
 
-#: src/features/homepage/page.tsx
-msgid "Reactive Resume is free and open source. Amruth and a community of contributors keep it running. If you’d like to support the work, donations help cover hosting and development."
-msgstr "Reactive Resume ist kostenlos und Open-Source. Amruth und eine Community von Mitwirkenden halten es am Laufen. Wenn du die Arbeit unterstützen möchtest, helfen Spenden, Hosting und Entwicklung zu finanzieren."
-
 #: src/components/ui/donation-toast.tsx
 msgid "Reactive Resume is free and open source. If it has helped you, please consider donating."
 msgstr "Reactive Resume ist kostenlos und Open Source. Wenn es Ihnen geholfen hat, würden wir uns über eine Spende freuen."
@@ -4735,10 +4695,6 @@ msgstr "Bereit zur Aktivierung mit Fehlern"
 #: src/features/resume/stylesheet/status.tsx
 msgid "Ready to activate with warnings"
 msgstr "Bereit zur Aktivierung mit Warnungen"
-
-#: src/features/homepage/page.tsx
-msgid "Ready to put your name on it?"
-msgstr "Bereit, deinen Namen draufzusetzen?"
 
 #: src/dialogs/resume/sections/cover-letter.tsx
 #: src/features/cover-letters/editor.tsx
@@ -4864,10 +4820,6 @@ msgstr "Ersetzen Sie Tabellen durch einfache Absätze und Listen. Zellen werden 
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Replace the attached cover letter?"
 msgstr "Das angehängte Anschreiben ersetzen?"
-
-#: src/features/homepage/page.tsx
-msgid "Report a bug"
-msgstr "Einen Fehler melden"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Report a Bug"
@@ -5087,10 +5039,6 @@ msgstr "Gehalt"
 msgid "Salary range"
 msgstr "Gehaltsspanne"
 
-#: src/features/homepage/page.tsx
-msgid "Same story.<0/>A different look."
-msgstr "Gleiche Story.<0/>Ein anderer Look."
-
 #: src/features/homepage/export-playground.tsx
 msgid "Sample download format"
 msgstr "Beispiel-Download-Format"
@@ -5268,14 +5216,6 @@ msgstr "Sieh, wie dieser Lebenslauf zur Ausschreibung passt"
 #: src/features/homepage/feature-explorer.tsx
 msgid "See how to connect"
 msgstr "Sieh, wie man sich verbindet"
-
-#: src/features/homepage/page.tsx
-msgid "See what<0/>software reads."
-msgstr "Sieh, was<0/>Software liest."
-
-#: src/features/homepage/page.tsx
-msgid "See whether your PDF has readable text. Read a sample or try your own PDF. Everything runs in your browser, so your file stays with you."
-msgstr "Prüfe, ob dein PDF lesbaren Text hat. Lies ein Muster oder probiere dein eigenes PDF aus. Alles läuft in deinem Browser, also bleibt deine Datei bei dir."
 
 #. placeholder {0}: app.company
 #: src/features/applications/components/table-view.tsx
@@ -5898,10 +5838,6 @@ msgstr "Zusammenfassung"
 msgid "Support the app by doing what you can!"
 msgstr "Unterstützen Sie die App, wo Sie können!"
 
-#: src/features/homepage/page.tsx
-msgid "Support the project"
-msgstr "Unterstütze das Projekt"
-
 #: src/features/ats-checker/messages.ts
 #: src/libs/resume/ats.ts
 msgid "Swap the start and end dates."
@@ -5957,10 +5893,6 @@ msgstr "Passen Sie diesen Lebenslauf an eine Stellenbeschreibung für Product Ma
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Tailoring failed."
 msgstr "Anpassung fehlgeschlagen."
-
-#: src/features/homepage/page.tsx
-msgid "Take it<0/>with you."
-msgstr "Nehmen Sie es<0/>mit."
 
 #: src/libs/locale.ts
 msgid "Tamil"
@@ -6020,10 +5952,6 @@ msgstr "Text befindet sich im Kopf- oder Fußzeilenbereich."
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "Thailändisch"
-
-#: src/features/homepage/page.tsx
-msgid "Thank you for helping keep it free."
-msgstr "Danke, dass Sie helfen, es kostenlos zu halten."
 
 #: src/features/ats-checker/tool.tsx
 msgid "That file could not be read as a PDF."
@@ -6119,10 +6047,6 @@ msgstr "Der Anbieter hat eine Bewertung zurückgegeben, die nicht gelesen werden
 msgid "The provider's response could not be verified. Please start again."
 msgstr "Die Antwort des Anbieters konnte nicht überprüft werden. Bitte beginnen Sie von vorn."
 
-#: src/features/homepage/page.tsx
-msgid "The rest of your<0/>job search, too."
-msgstr "Auch der Rest Ihrer<0/>Jobsuche."
-
 #: src/features/resume/preview/preview.browser.tsx
 msgid "The resume preview could not be updated. The last valid preview is still shown."
 msgstr "Die Lebenslaufvorschau konnte nicht aktualisiert werden. Die letzte gültige Vorschau wird weiterhin angezeigt."
@@ -6162,10 +6086,6 @@ msgstr "Design"
 #: src/dialogs/auth/enable-two-factor.tsx
 msgid "Then, enter the 6 digit code that the app provides to continue."
 msgstr "Geben Sie dann den 6-stelligen Code ein, den die App bereitstellt, um fortzufahren."
-
-#: src/features/homepage/page.tsx
-msgid "There are other ways to pitch in."
-msgstr "Es gibt andere Möglichkeiten, mitzumachen."
 
 #: src/features/ats-checker/messages.ts
 msgid "There is a gap between two dated roles."
@@ -6567,10 +6487,6 @@ msgstr "Erste Bewerbung verfolgen"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Track your resume's views and downloads"
 msgstr "Verfolgen Sie die Aufrufe und Downloads Ihres Lebenslaufs"
-
-#: src/features/homepage/page.tsx
-msgid "Translate the app"
-msgstr "Die App übersetzen"
 
 #: src/features/homepage/site-footer.tsx
 #: src/routes/_home/-sections/footer.tsx
@@ -7104,6 +7020,10 @@ msgstr "Websuche"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Website"
 msgstr "Webseite"
+
+#: src/features/homepage/page.tsx
+msgid "Welcome to the <0/>GLH<1/><2>CV PORTAL.</2>"
+msgstr ""
 
 #: src/features/ats-checker/parse-preview.tsx
 msgid "What a parser reads"

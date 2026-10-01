@@ -141,8 +141,8 @@ msgid "{sectionTitle} · Item {itemNumber}"
 msgstr "{sectionTitle} · Στοιχείο {itemNumber}"
 
 #: src/features/homepage/page.tsx
-msgid "<0>Free forever and open source.</0><1/>No ads, paywalls, or tracking."
-msgstr "<0>Δωρεάν για πάντα και ανοικτού κώδικα.</0><1/>Χωρίς διαφημίσεις, paywalls ή παρακολούθηση."
+msgid "<0>GLH Professional CVs.</0><1/>"
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "<0>Thank you for using Reactive Resume. I build this app mostly in my spare time, with help from open-source contributors around the world.</0><1>If it has been useful to you and you'd like to keep it free and open for everyone, please consider donating. Any amount helps.</1>"
@@ -220,10 +220,6 @@ msgstr "Ένας δωρεάν δημιουργός βιογραφικών ανο
 msgid "A free collection of accessible patterns for the web."
 msgstr "Μια δωρεάν συλλογή προσβάσιμων προτύπων για τον ιστό."
 
-#: src/features/homepage/page.tsx
-msgid "A free, open-source resume builder. Put your experience on the page, without fighting the formatting."
-msgstr "Ένας δωρεάν, ανοικτού κώδικα δημιουργός βιογραφικών σημειωμάτων. Βάλτε την εμπειρία σας στη σελίδα, χωρίς να παλεύετε με τη μορφοποίηση."
-
 #: src/features/homepage/site-footer.tsx
 msgid "A free, open-source resume builder. Yours to keep, yours to export, yours to host."
 msgstr "Ένας δωρεάν, ανοικτού κώδικα δημιουργός βιογραφικών σημειωμάτων. Είναι δικό σας: κρατήστε το, εξαγάγετέ το, φιλοξενήστε το μόνοι σας."
@@ -272,17 +268,9 @@ msgstr "Ένα έργο πάθους από τον <0>Amruth Pillai</0>"
 msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "Ένα έργο πάθους από τον <0>Amruth Pillai</0>."
 
-#: src/features/homepage/page.tsx
-msgid "A PDF for the application. A Word file for a few more edits. Download a sample using your choices."
-msgstr "Ένα PDF για την αίτηση. Ένα αρχείο Word για λίγες ακόμη επεξεργασίες. Κατεβάστε ένα δείγμα με τις επιλογές σας."
-
 #: src/features/homepage/feature-explorer.tsx
 msgid "A private resume does not appear at its public link."
 msgstr "Ένα ιδιωτικό βιογραφικό δεν εμφανίζεται στον δημόσιο σύνδεσμό του."
-
-#: src/features/homepage/page.tsx
-msgid "A project you can<0/>be part of."
-msgstr "Ένα έργο στο οποίο μπορείτε<0/>να συμμετέχετε."
 
 #: src/features/homepage/ats-playground.tsx
 msgid "A real sample PDF"
@@ -1394,10 +1382,6 @@ msgstr "Συνεχίστε από εκεί που σταματήσατε"
 msgid "Continue where you left off by importing a resume you built in Reactive Resume or another resume builder. Supported formats are PDF, Microsoft Word, and JSON files from Reactive Resume or JSON Resume."
 msgstr "Συνεχίστε από εκεί που σταματήσατε εισάγοντας ένα βιογραφικό που φτιάξατε στο Reactive Resume ή σε άλλον δημιουργό βιογραφικών. Οι υποστηριζόμενες μορφές είναι PDF, Microsoft Word και αρχεία JSON από το Reactive Resume ή το JSON Resume."
 
-#: src/features/homepage/page.tsx
-msgid "Contribute code"
-msgstr "Συνεισφέρετε κώδικα"
-
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Conversation copied."
 msgstr "Η συνομιλία αντιγράφηκε."
@@ -1728,13 +1712,13 @@ msgstr "Δημιουργία νέου στοιχείου σύνοψης"
 msgid "Create a new volunteer experience"
 msgstr "Δημιουργία νέας εθελοντικής εμπειρίας"
 
-#: src/features/homepage/page.tsx
-msgid "Create a resume"
-msgstr "Δημιουργήστε ένα βιογραφικό"
-
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "Δημιουργία δείγματος βιογραφικού σημειώματος"
+
+#: src/features/homepage/page.tsx
+msgid "Create and Manage professional CVs using our company Standards."
+msgstr ""
 
 #: src/features/cover-letters/library.tsx
 msgid "Create cover letter"
@@ -2430,10 +2414,6 @@ msgstr "Λήγει στις {0}"
 msgid "Explore features"
 msgstr "Εξερευνήστε τις δυνατότητες"
 
-#: src/features/homepage/page.tsx
-msgid "Explore templates"
-msgstr "Εξερευνήστε τα πρότυπα"
-
 #: src/libs/resume/section.tsx
 msgid "Export"
 msgstr "Εξαγωγή"
@@ -2656,10 +2636,6 @@ msgstr "Κρίσιμο σφάλμα"
 msgid "Features"
 msgstr "Δυνατότητες"
 
-#: src/features/homepage/page.tsx
-msgid "Fifteen templates, all free. Pick one you like. You can change the type, color, and layout in the editor."
-msgstr "Δεκαπέντε πρότυπα, όλα δωρεάν. Διαλέξτε αυτό που σας αρέσει. Μπορείτε να αλλάξετε τον τύπο, το χρώμα και τη διάταξη στο εργαλείο επεξεργασίας."
-
 #: src/dialogs/resume/import.tsx
 msgid "File"
 msgstr "Αρχείο"
@@ -2683,10 +2659,6 @@ msgstr "Φιλτράρισμα κατά ετικέτες"
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Find the weak bullet points and rewrite them with stronger outcomes, numbers, scope, and sharper verbs."
 msgstr "Βρες τα αδύναμα σημεία και ξαναγράψ' τα με ισχυρότερα αποτελέσματα, αριθμούς, εύρος και πιο δυνατά ρήματα."
-
-#: src/features/homepage/page.tsx
-msgid "Find us on GitHub"
-msgstr "Βρείτε μας στο GitHub"
 
 #: src/libs/locale.ts
 msgid "Finnish"
@@ -2833,10 +2805,6 @@ msgstr "Δημιουργία του PDF σας..."
 #: src/libs/locale.ts
 msgid "German"
 msgstr "Γερμανικά"
-
-#: src/features/homepage/page.tsx
-msgid "Get a second opinion on your writing, share your resume, and keep track of where you’ve applied. It’s all in one place."
-msgstr "Πάρτε μια δεύτερη γνώμη για το γράψιμό σας, μοιραστείτε το βιογραφικό σας και παρακολουθήστε πού έχετε υποβάλει αιτήσεις. Όλα σε ένα μέρος."
 
 #: src/features/homepage/page.tsx
 #: src/features/homepage/site-footer.tsx
@@ -3646,10 +3614,6 @@ msgstr "Κάντε το ορατό κείμενο και τον προορισμ
 #: src/features/ats-checker/messages.ts
 msgid "Make them visibly larger, bolder or capitalised."
 msgstr "Κάντε τις εμφανώς μεγαλύτερες, πιο έντονες ή με κεφαλαία."
-
-#: src/features/homepage/page.tsx
-msgid "Make yourself <0/>look good<1/><2>on paper.</2>"
-msgstr "Κάντε <0/>καλή εντύπωση<1/><2>στο χαρτί.</2>"
 
 #: src/libs/locale.ts
 msgid "Malay"
@@ -4648,10 +4612,6 @@ msgstr "Reactive Resume - Μετάβαση στην αρχική σελίδα"
 msgid "Reactive Resume (JSON)"
 msgstr "Αντιδραστικό βιογραφικό σημείωμα (JSON)"
 
-#: src/features/homepage/page.tsx
-msgid "Reactive Resume is free and open source. Amruth and a community of contributors keep it running. If you’d like to support the work, donations help cover hosting and development."
-msgstr "Το Reactive Resume είναι δωρεάν και ανοικτού κώδικα. Ο Amruth και μια κοινότητα συνεισφερόντων το κρατούν ενεργό. Αν θέλετε να υποστηρίξετε το έργο, οι δωρεές βοηθούν να καλυφθούν η φιλοξενία και η ανάπτυξη."
-
 #: src/components/ui/donation-toast.tsx
 msgid "Reactive Resume is free and open source. If it has helped you, please consider donating."
 msgstr "Το Reactive Resume είναι δωρεάν και ανοιχτού κώδικα. Αν σας έχει βοηθήσει, σκεφτείτε να κάνετε μια δωρεά."
@@ -4735,10 +4695,6 @@ msgstr "Έτοιμο για ενεργοποίηση με σφάλματα"
 #: src/features/resume/stylesheet/status.tsx
 msgid "Ready to activate with warnings"
 msgstr "Έτοιμο για ενεργοποίηση με προειδοποιήσεις"
-
-#: src/features/homepage/page.tsx
-msgid "Ready to put your name on it?"
-msgstr "Έτοιμοι να βάλετε το όνομά σας σε αυτό;"
 
 #: src/dialogs/resume/sections/cover-letter.tsx
 #: src/features/cover-letters/editor.tsx
@@ -4864,10 +4820,6 @@ msgstr "Αντικαταστήστε τους πίνακες με απλές π�
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Replace the attached cover letter?"
 msgstr "Αντικατάσταση της συνοδευτικής επιστολής;"
-
-#: src/features/homepage/page.tsx
-msgid "Report a bug"
-msgstr "Αναφέρετε ένα σφάλμα"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Report a Bug"
@@ -5087,10 +5039,6 @@ msgstr "Μισθός"
 msgid "Salary range"
 msgstr "Εύρος μισθού"
 
-#: src/features/homepage/page.tsx
-msgid "Same story.<0/>A different look."
-msgstr "Η ίδια ιστορία.<0/>Μια διαφορετική εμφάνιση."
-
 #: src/features/homepage/export-playground.tsx
 msgid "Sample download format"
 msgstr "Μορφή λήψης δείγματος"
@@ -5268,14 +5216,6 @@ msgstr "Δείτε πώς ταιριάζει αυτό το βιογραφικό 
 #: src/features/homepage/feature-explorer.tsx
 msgid "See how to connect"
 msgstr "Δείτε πώς να συνδεθείτε"
-
-#: src/features/homepage/page.tsx
-msgid "See what<0/>software reads."
-msgstr "Δείτε τι<0/>διαβάζει το λογισμικό."
-
-#: src/features/homepage/page.tsx
-msgid "See whether your PDF has readable text. Read a sample or try your own PDF. Everything runs in your browser, so your file stays with you."
-msgstr "Δείτε αν το PDF σας έχει αναγνώσιμο κείμενο. Διαβάστε ένα δείγμα ή δοκιμάστε ένα δικό σας PDF. Όλα εκτελούνται στο πρόγραμμα περιήγησής σας, οπότε το αρχείο σας παραμένει δικό σας."
 
 #. placeholder {0}: app.company
 #: src/features/applications/components/table-view.tsx
@@ -5898,10 +5838,6 @@ msgstr "Σύνοψη"
 msgid "Support the app by doing what you can!"
 msgstr "Υποστηρίξτε την εφαρμογή κάνοντας ό,τι μπορείτε!"
 
-#: src/features/homepage/page.tsx
-msgid "Support the project"
-msgstr "Υποστηρίξτε το έργο"
-
 #: src/features/ats-checker/messages.ts
 #: src/libs/resume/ats.ts
 msgid "Swap the start and end dates."
@@ -5957,10 +5893,6 @@ msgstr "Προσάρμοσε αυτό το βιογραφικό σε μια πε
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Tailoring failed."
 msgstr "Η προσαρμογή απέτυχε."
-
-#: src/features/homepage/page.tsx
-msgid "Take it<0/>with you."
-msgstr "Πάρτε το<0/>μαζί σας."
 
 #: src/libs/locale.ts
 msgid "Tamil"
@@ -6020,10 +5952,6 @@ msgstr "Το κείμενο βρίσκεται στην περιοχή κεφα�
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "Ταϊλανδικά"
-
-#: src/features/homepage/page.tsx
-msgid "Thank you for helping keep it free."
-msgstr "Σας ευχαριστούμε που βοηθάτε να παραμείνει δωρεάν."
 
 #: src/features/ats-checker/tool.tsx
 msgid "That file could not be read as a PDF."
@@ -6119,10 +6047,6 @@ msgstr "Ο πάροχος επέστρεψε μια αξιολόγηση που 
 msgid "The provider's response could not be verified. Please start again."
 msgstr "Η απόκριση του παρόχου δεν ήταν δυνατό να επαληθευτεί. Ξεκινήστε ξανά."
 
-#: src/features/homepage/page.tsx
-msgid "The rest of your<0/>job search, too."
-msgstr "Και το υπόλοιπο της<0/>αναζήτησης εργασίας σας."
-
 #: src/features/resume/preview/preview.browser.tsx
 msgid "The resume preview could not be updated. The last valid preview is still shown."
 msgstr "Δεν ήταν δυνατή η ενημέρωση της προεπισκόπησης βιογραφικού σημειώματος. Η τελευταία έγκυρη προεπισκόπηση εξακολουθεί να εμφανίζεται."
@@ -6162,10 +6086,6 @@ msgstr "Θέμα"
 #: src/dialogs/auth/enable-two-factor.tsx
 msgid "Then, enter the 6 digit code that the app provides to continue."
 msgstr "Στη συνέχεια, εισαγάγετε τον 6ψήφιο κωδικό που σας δίνει η εφαρμογή για να συνεχίσετε."
-
-#: src/features/homepage/page.tsx
-msgid "There are other ways to pitch in."
-msgstr "Υπάρχουν και άλλοι τρόποι να συνεισφέρετε."
 
 #: src/features/ats-checker/messages.ts
 msgid "There is a gap between two dated roles."
@@ -6567,10 +6487,6 @@ msgstr "Παρακολούθηση πρώτης αίτησης"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Track your resume's views and downloads"
 msgstr "Παρακολουθήστε τις προβολές και τις λήψεις του βιογραφικού σας σημειώματος"
-
-#: src/features/homepage/page.tsx
-msgid "Translate the app"
-msgstr "Μεταφράστε την εφαρμογή"
 
 #: src/features/homepage/site-footer.tsx
 #: src/routes/_home/-sections/footer.tsx
@@ -7104,6 +7020,10 @@ msgstr "Αναζήτηση στον ιστό"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Website"
 msgstr "Ιστότοπος"
+
+#: src/features/homepage/page.tsx
+msgid "Welcome to the <0/>GLH<1/><2>CV PORTAL.</2>"
+msgstr ""
 
 #: src/features/ats-checker/parse-preview.tsx
 msgid "What a parser reads"

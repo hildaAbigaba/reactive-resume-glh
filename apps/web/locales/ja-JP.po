@@ -141,8 +141,8 @@ msgid "{sectionTitle} · Item {itemNumber}"
 msgstr "{sectionTitle} · アイテム {itemNumber}"
 
 #: src/features/homepage/page.tsx
-msgid "<0>Free forever and open source.</0><1/>No ads, paywalls, or tracking."
-msgstr "<0>永久に無料、そしてオープンソース。</0><1/>広告も、有料の壁も、トラッキングもありません。"
+msgid "<0>GLH Professional CVs.</0><1/>"
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "<0>Thank you for using Reactive Resume. I build this app mostly in my spare time, with help from open-source contributors around the world.</0><1>If it has been useful to you and you'd like to keep it free and open for everyone, please consider donating. Any amount helps.</1>"
@@ -220,10 +220,6 @@ msgstr "履歴書の作成・更新・共有を簡単にする、無料でオー
 msgid "A free collection of accessible patterns for the web."
 msgstr "ウェブ向けのアクセシブルなパターンを無料で集めたコレクション。"
 
-#: src/features/homepage/page.tsx
-msgid "A free, open-source resume builder. Put your experience on the page, without fighting the formatting."
-msgstr "無料でオープンソースの履歴書ビルダー。書式と格闘することなく、あなたの経歴を紙面に。"
-
 #: src/features/homepage/site-footer.tsx
 msgid "A free, open-source resume builder. Yours to keep, yours to export, yours to host."
 msgstr "無料でオープンソースの履歴書ビルダー。 あなたのものです。手元に残せて、書き出せて、自分でホストできます。"
@@ -272,17 +268,9 @@ msgstr "<0>Amruth Pillai</0> による情熱のプロジェクト"
 msgid "A passion project by <0>Amruth Pillai</0>."
 msgstr "<0>Amruth Pillai によるパッションプロジェクト</0>です。"
 
-#: src/features/homepage/page.tsx
-msgid "A PDF for the application. A Word file for a few more edits. Download a sample using your choices."
-msgstr "応募用のPDF。さらに編集するためのWordファイル。選択内容を使ってサンプルをダウンロードできます。"
-
 #: src/features/homepage/feature-explorer.tsx
 msgid "A private resume does not appear at its public link."
 msgstr "非公開の履歴書は、公開リンクには表示されません。"
-
-#: src/features/homepage/page.tsx
-msgid "A project you can<0/>be part of."
-msgstr "あなたも参加できる<0/>プロジェクト。"
 
 #: src/features/homepage/ats-playground.tsx
 msgid "A real sample PDF"
@@ -1394,10 +1382,6 @@ msgstr "中断したところから再開"
 msgid "Continue where you left off by importing a resume you built in Reactive Resume or another resume builder. Supported formats are PDF, Microsoft Word, and JSON files from Reactive Resume or JSON Resume."
 msgstr "Reactive Resume や他の履歴書ビルダーで作成した履歴書をインポートして、続きから作業できます。対応形式は PDF、Microsoft Word、および Reactive Resume または JSON Resume の JSON ファイルです。"
 
-#: src/features/homepage/page.tsx
-msgid "Contribute code"
-msgstr "コードで貢献する"
-
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Conversation copied."
 msgstr "会話内容をコピーしました。"
@@ -1728,13 +1712,13 @@ msgstr "サマリーを追加"
 msgid "Create a new volunteer experience"
 msgstr "ボランティアを追加"
 
-#: src/features/homepage/page.tsx
-msgid "Create a resume"
-msgstr "履歴書を作成する"
-
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "サンプルから作成"
+
+#: src/features/homepage/page.tsx
+msgid "Create and Manage professional CVs using our company Standards."
+msgstr ""
 
 #: src/features/cover-letters/library.tsx
 msgid "Create cover letter"
@@ -2430,10 +2414,6 @@ msgstr "有効期限: {0}"
 msgid "Explore features"
 msgstr "機能を見る"
 
-#: src/features/homepage/page.tsx
-msgid "Explore templates"
-msgstr "テンプレートを見る"
-
 #: src/libs/resume/section.tsx
 msgid "Export"
 msgstr "エクスポート"
@@ -2656,10 +2636,6 @@ msgstr "致命的なエラー"
 msgid "Features"
 msgstr "機能"
 
-#: src/features/homepage/page.tsx
-msgid "Fifteen templates, all free. Pick one you like. You can change the type, color, and layout in the editor."
-msgstr "15種類のテンプレートはすべて無料。気に入ったものを選んでください。書体、カラー、レイアウトはエディターで変更できます。"
-
 #: src/dialogs/resume/import.tsx
 msgid "File"
 msgstr "ファイル"
@@ -2683,10 +2659,6 @@ msgstr "タグで絞り込み"
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Find the weak bullet points and rewrite them with stronger outcomes, numbers, scope, and sharper verbs."
 msgstr "弱い箇条書きを見つけて、より強い成果、数値、規模、そして鋭い動詞で書き直してください。"
-
-#: src/features/homepage/page.tsx
-msgid "Find us on GitHub"
-msgstr "GitHubで見る"
 
 #: src/libs/locale.ts
 msgid "Finnish"
@@ -2833,10 +2805,6 @@ msgstr "PDF を生成しています..."
 #: src/libs/locale.ts
 msgid "German"
 msgstr "ドイツ語"
-
-#: src/features/homepage/page.tsx
-msgid "Get a second opinion on your writing, share your resume, and keep track of where you’ve applied. It’s all in one place."
-msgstr "文章にセカンドオピニオンをもらい、履歴書を共有し、応募先を管理する。すべてが一つの場所にそろっています。"
 
 #: src/features/homepage/page.tsx
 #: src/features/homepage/site-footer.tsx
@@ -3646,10 +3614,6 @@ msgstr "表示テキストとリンク先を一致させてください。"
 #: src/features/ats-checker/messages.ts
 msgid "Make them visibly larger, bolder or capitalised."
 msgstr "見た目で分かるように大きく、太く、または大文字にしてください。"
-
-#: src/features/homepage/page.tsx
-msgid "Make yourself <0/>look good<1/><2>on paper.</2>"
-msgstr "紙の上で<0/>好印象を<1/><2>与える。</2>"
 
 #: src/libs/locale.ts
 msgid "Malay"
@@ -4648,10 +4612,6 @@ msgstr "Reactive Resume - ホームページへ移動"
 msgid "Reactive Resume (JSON)"
 msgstr "Reactive Resume (JSON)"
 
-#: src/features/homepage/page.tsx
-msgid "Reactive Resume is free and open source. Amruth and a community of contributors keep it running. If you’d like to support the work, donations help cover hosting and development."
-msgstr "Reactive Resumeは無料でオープンソースです。Amruthとコントリビューターのコミュニティが運営を支えています。この活動を応援したい方の寄付は、ホスティングと開発の費用に充てられます。"
-
 #: src/components/ui/donation-toast.tsx
 msgid "Reactive Resume is free and open source. If it has helped you, please consider donating."
 msgstr "Reactive Resumeは無料のオープンソースソフトウェアです。もしお役に立てたなら、ぜひご寄付をご検討ください。"
@@ -4735,10 +4695,6 @@ msgstr "エラーがありますが有効化できます"
 #: src/features/resume/stylesheet/status.tsx
 msgid "Ready to activate with warnings"
 msgstr "警告付きで有効化準備完了"
-
-#: src/features/homepage/page.tsx
-msgid "Ready to put your name on it?"
-msgstr "あなたの名前を載せる準備はできましたか？"
 
 #: src/dialogs/resume/sections/cover-letter.tsx
 #: src/features/cover-letters/editor.tsx
@@ -4864,10 +4820,6 @@ msgstr "表をプレーンな段落やリストに置き換えてください。
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Replace the attached cover letter?"
 msgstr "添付されているカバーレターを置き換えますか？"
-
-#: src/features/homepage/page.tsx
-msgid "Report a bug"
-msgstr "バグを報告する"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Report a Bug"
@@ -5087,10 +5039,6 @@ msgstr "給与"
 msgid "Salary range"
 msgstr "給与範囲"
 
-#: src/features/homepage/page.tsx
-msgid "Same story.<0/>A different look."
-msgstr "同じストーリー。<0/>違う見た目。"
-
 #: src/features/homepage/export-playground.tsx
 msgid "Sample download format"
 msgstr "サンプルのダウンロード形式"
@@ -5268,14 +5216,6 @@ msgstr "この履歴書が求人にどの程度合うか確認"
 #: src/features/homepage/feature-explorer.tsx
 msgid "See how to connect"
 msgstr "接続方法を見る"
-
-#: src/features/homepage/page.tsx
-msgid "See what<0/>software reads."
-msgstr "ソフトウェアが<0/>何を読み取るかを見る。"
-
-#: src/features/homepage/page.tsx
-msgid "See whether your PDF has readable text. Read a sample or try your own PDF. Everything runs in your browser, so your file stays with you."
-msgstr "PDFに読み取れるテキストがあるか確認しましょう。サンプルを読み取るか、自分のPDFを試せます。すべてブラウザ内で動くので、ファイルは手元から出ません。"
 
 #. placeholder {0}: app.company
 #: src/features/applications/components/table-view.tsx
@@ -5898,10 +5838,6 @@ msgstr "サマリー"
 msgid "Support the app by doing what you can!"
 msgstr "できる範囲で、このアプリをサポートしてください。"
 
-#: src/features/homepage/page.tsx
-msgid "Support the project"
-msgstr "プロジェクトを支援する"
-
 #: src/features/ats-checker/messages.ts
 #: src/libs/resume/ats.ts
 msgid "Swap the start and end dates."
@@ -5957,10 +5893,6 @@ msgstr "この履歴書をプロダクトマネージャーの求人内容に合
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Tailoring failed."
 msgstr "調整に失敗しました。"
-
-#: src/features/homepage/page.tsx
-msgid "Take it<0/>with you."
-msgstr "どこへでも<0/>持ち出せる。"
 
 #: src/libs/locale.ts
 msgid "Tamil"
@@ -6020,10 +5952,6 @@ msgstr "テキストがヘッダーまたはフッター領域に配置されて
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "タイ語"
-
-#: src/features/homepage/page.tsx
-msgid "Thank you for helping keep it free."
-msgstr "無料であり続けるための支援に感謝します。"
 
 #: src/features/ats-checker/tool.tsx
 msgid "That file could not be read as a PDF."
@@ -6119,10 +6047,6 @@ msgstr "プロバイダーから読み取れないレビューが返されまし
 msgid "The provider's response could not be verified. Please start again."
 msgstr "プロバイダーの応答を検証できませんでした。最初からやり直してください。"
 
-#: src/features/homepage/page.tsx
-msgid "The rest of your<0/>job search, too."
-msgstr "仕事探しの残りも、<0/>ここでまとめて。"
-
 #: src/features/resume/preview/preview.browser.tsx
 msgid "The resume preview could not be updated. The last valid preview is still shown."
 msgstr "履歴書のプレビューを更新できませんでした。最後に有効だったプレビューが表示されたままです。"
@@ -6162,10 +6086,6 @@ msgstr "テーマ"
 #: src/dialogs/auth/enable-two-factor.tsx
 msgid "Then, enter the 6 digit code that the app provides to continue."
 msgstr "次に、続行するためにアプリが表示する 6 桁のコードを入力してください。"
-
-#: src/features/homepage/page.tsx
-msgid "There are other ways to pitch in."
-msgstr "他にも力になれる方法があります。"
 
 #: src/features/ats-checker/messages.ts
 msgid "There is a gap between two dated roles."
@@ -6567,10 +6487,6 @@ msgstr "最初の応募を追跡"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Track your resume's views and downloads"
 msgstr "閲覧数とダウンロード数を確認する"
-
-#: src/features/homepage/page.tsx
-msgid "Translate the app"
-msgstr "アプリを翻訳する"
 
 #: src/features/homepage/site-footer.tsx
 #: src/routes/_home/-sections/footer.tsx
@@ -7104,6 +7020,10 @@ msgstr "ウェブ検索"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Website"
 msgstr "Webサイト"
+
+#: src/features/homepage/page.tsx
+msgid "Welcome to the <0/>GLH<1/><2>CV PORTAL.</2>"
+msgstr ""
 
 #: src/features/ats-checker/parse-preview.tsx
 msgid "What a parser reads"

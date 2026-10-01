@@ -586,8 +586,30 @@ export function parseResumeText(text: string): ResumeData {
 		section.items = [...section.items, ...items] as typeof section.items;
 		if (!order.includes(item.key)) order.push(item.key);
 	}
+	// Default Azurill layout:
+	// Personal information and supporting sections go to the sidebar.
+	// Main professional content goes into the main column.
 
-	data.metadata.layout.pages = [{ fullWidth: true, main: order, sidebar: [] }];
+	const sidebarOrder = ["picture", "basics", "profiles", "skills", "languages", "interests", "references"];
+
+	const mainOrder = ["experience", "education", "projects", "certifications", "awards", "publications", "volunteer"];
+
+	// Keep only sections that actually exist in the imported resume.
+	// This also prevents duplicate section IDs.
+	const sidebar = sidebarOrder.filter((section) => order.includes(section));
+
+	const main = [
+		...mainOrder.filter((section) => order.includes(section)),
+		...order.filter((section) => !sidebar.includes(section) && !mainOrder.includes(section)),
+	];
+
+	data.metadata.layout.pages = [
+		{
+			fullWidth: false,
+			main,
+			sidebar,
+		},
+	];
 
 	return parseResumeData(data);
 }
